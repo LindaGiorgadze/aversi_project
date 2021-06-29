@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 30px;
+    align-items: center;
 }
 .logo {
     max-width: 214px;
@@ -80,7 +81,7 @@
     margin-top: 30px;
 }
 .navigation-block-first {
-    max-width: 234px;
+    max-width: 734px;
     width: 100%;
     height: 60px;
     background-color: #D62127; 
@@ -88,7 +89,8 @@
     padding-top: 22px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 60px;
+    margin-left: 30px;
+    position: relative;
 }
 .navigation-block-other {
     max-width: 234px;
@@ -98,14 +100,26 @@
     padding-top: 22px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 .navigation-block-other:hover {
     background-color: #D62127; 
 }
-.navigation:hover .hover-text-on-navigation {
-    display: block;
-} 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F4F2F0;
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    z-index: 1;
+    margin-top: 38px;
+    border-radius: 10px;
+}  
+.navigation-block-first:hover .dropdown-content {
+    display: flex;
+}
 .catalogy,
 .fa-bars {
     color: white;
@@ -124,6 +138,7 @@
     border-radius: 7px;
     padding: 25px;
     margin-top: 20px;
+    position: absolute;
 }
 .lists {
     max-width: 190px;
@@ -145,12 +160,13 @@
 .carousel {
     max-width: 1600px;
     width: 100%;
-    height: 575px;
+    height: 675px;
+    position: relative;
 }
 ul.slides {
     display: block;
     position: relative;
-    height: 575px;
+    height: 675px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -244,7 +260,31 @@ input#img-3:checked ~ .carousel-dots label#img-dot-3 {
 	opacity: 1;
 }
 input:checked + .slide-container .nav label { display: block; }
-
+.learnMore {
+    max-width: 205px;
+    width: 100%;
+    height: 54px;
+    background-color: #FFFFFF21;
+    border: #FFFFFF 1px solid;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    padding: 13px 29px;
+}
+.learnMore-a {
+    color: #3C3939;
+    font-size: 22px;
+}
+.createShelf {
+    max-width: 564px;
+    width: 100%;
+    height: auto;
+    font-size: 42px;
+    top: 30%;
+    left: 5%;
+    position: absolute;
+}
 
 /* footer */
 .footer {
@@ -272,6 +312,8 @@ input:checked + .slide-container .nav label { display: block; }
     max-width: 220px;
     width: 100%;
     height: auto;
+}
+.card-a {
     font-size: 28px;
     color: white;
 }

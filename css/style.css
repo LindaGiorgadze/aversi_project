@@ -244,3 +244,85 @@ input#img-3:checked ~ .carousel-dots label#img-dot-3 {
 	opacity: 1;
 }
 input:checked + .slide-container .nav label { display: block; }
+
+
+/* footer */
+.footer {
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    background-color: #6A6A68;
+    padding: 50px 83px;
+    margin-top: 100px;
+}
+.footer-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer-first-block {
+    max-width: 240px;
+    width: 100%;
+    height: auto;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    font-size: 28px;
+    color: white;
+}
+.company {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 23px;
+}
+.footer-a {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-li {
+    margin-bottom: 10px;
+}
+.online-help {
+    max-width: 225px;
+    width: 100%;
+    height: 43px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #CE383C;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+.help {
+    max-width: 227px;
+    width: 100%;
+    height: auto;
+}
+.onlineHelpText {
+    color: #CE383C;
+    font-size: 16px;
+    margin-left: 11px;
+}
+.copyright {
+    max-width: 240px;
+    width: 100%;
+    height: auto;
+    white-space: nowrap;
+    font-size: 13px;
+    color: white;
+}
+.cardsAndCopy {
+    margin-top: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <div class="logoandsearch">
+        <div class="logoandsearch wrapper">
             <div class="logo"> <img class="image" src="images/aversi-ltd.svg" alt="aversi-ltd"></div>
             <div class="searchContainer">
                 <i class="fa fa-search searchIcon"></i>
@@ -25,8 +25,8 @@
             </div>
         </div>
 
-        <div class="navigation">
-            <div class="navigation-block-first"> <i class="fas fa-bars"></i> <h3 class="catalogy">კატალოგი</h3>
+        <div class="navigation" id="menu" class="menu-ul">
+            <div class="navigation-block-first"> <div id="burger-menu" class="burger-icon"><i class="fas fa-bars"></i></div> <h3 class="catalogy">კატალოგი</h3>
                 <div class="dropdown-content">
                     <div class="lists">
                         <div class="listDiv"><a class="nav-a" href="#"> წამლები </a></div>
@@ -46,11 +46,8 @@
                         <div class="listDiv"><a class="nav-a" href="#"> პირველი დახმარება </a></div>
                         <div class="listDiv"><a class="nav-a" href="#"> სხვა </a></div>
                     </div>
-                    <!-- <div class="lists">
-                        <div class="listDiv"><a class="nav-a" href="#"> წამლები </a></div>
-                        <div class="listDiv"><a class="nav-a" href="#"> სხვა </a></div>
-                    </div> -->
-                    </div></div>
+                </div>
+            </div>
             <div class="navigation-block-other"> <a class="catalogy" href="#">აფთიაქები</a> </div>
             <div class="navigation-block-other"> <a class="catalogy" href="#">კლინიკები</a> </div>
             <div class="navigation-block-other"> <a class="catalogy" href="#">ჩვენს შესახებ</a> </div>
@@ -141,6 +138,7 @@
         </div>
     </footer>
     <script src="js/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://kit.fontawesome.com/d688df6861.js" crossorigin="anonymous"></script>
 </body>
 </html>

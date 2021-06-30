@@ -1,4 +1,4 @@
 @media (max-width: 1212px ) {.icons { display: none; } }
-@media (max-width: 1197px ) {.navigation-block-other { display: none;}}
-@media (max-width: 600px ) {.createShelf { font-size: 25px; max-width: 270px; } }
+@media (max-width: 1108px ) {.navigation-block-other { display: none;}}
+@media (max-width: 600px ) {.createShelf { font-size: 30px; max-width: 270px; } }
 @media (max-width: 547px ) {.navigation-block-first:hover .dropdown-content {display: none} }

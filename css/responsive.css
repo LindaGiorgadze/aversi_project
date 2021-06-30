@@ -1,4 +1,4 @@
 @media (max-width: 1212px ) {.icons { display: none; } }
 @media (max-width: 1108px ) {.navigation-block-other { display: none;}}
 @media (max-width: 600px ) {.createShelf { font-size: 30px; max-width: 270px; } }
-@media (max-width: 547px ) {.navigation-block-first:hover .dropdown-content {display: none} }
+@media (max-width: 547px ) {.navigation-block-first:hover .dropdown-content {display: none} .burger-icon {margin-top: 20px; max-width: 25px; width: 100%; height: 25px;}}

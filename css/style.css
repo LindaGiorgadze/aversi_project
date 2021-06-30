@@ -100,7 +100,6 @@
     padding-top: 22px;
     display: flex;
     flex-wrap: wrap;
-    /* margin-left: 30px; */
 }
 .navigation-block-other:hover {
     background-color: #D62127; 
@@ -161,13 +160,13 @@
 .carousel {
     max-width: 1600px;
     width: 100%;
-    height: 675px;
+    height: 775px;
     position: relative;
 }
 ul.slides {
     display: block;
     position: relative;
-    height: 675px;
+    height: 775px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -374,4 +373,3 @@ input:checked + .slide-container .nav label { display: block; }
     align-items: center;
     justify-content: space-between;
 }
-

@@ -320,7 +320,7 @@ input:checked + .slide-container .nav label { display: block; }
     height: auto;
 }
 .card-a {
-    font-size: 28px;
+    font-size: 35px;
     color: white;
 }
 .company {
@@ -347,12 +347,12 @@ input:checked + .slide-container .nav label { display: block; }
     font-weight: bold;
     padding: 12px;
     display: flex;
-    align-items: center;
 }
 .help {
     max-width: 227px;
     width: 100%;
     height: auto;
+    padding: 5px;
 }
 .onlineHelpText {
     color: #CE383C;
@@ -367,7 +367,7 @@ input:checked + .slide-container .nav label { display: block; }
     color: white;
 }
 .cardsAndCopy {
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

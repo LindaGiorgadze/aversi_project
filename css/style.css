@@ -15,9 +15,7 @@
     width: 100%;
     height: 48px;
 }
-.image {
-    width: 100%;
-}
+.image {width: 100%;}
 .searchContainer {
     max-width: 833px;
     width: 100%;
@@ -86,9 +84,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.menu-ul{
-    display: flex;
-}
+.menu-ul{display: flex;}
 .nav-li {
     max-width: 234px;
     width: 100%;
@@ -179,7 +175,6 @@
     width: 100%;
     height: auto;
 }
-
 .carousel {
     max-width: 1600px;
     width: 100%;
@@ -195,15 +190,9 @@ ul.slides {
     overflow: hidden;
     list-style: none;
 }
-.slides * {
-    user-select: none;
-}
-ul.slides input {
-    display: none; 
-}
-.slide-container { 
-    display: block; 
-}
+.slides * {user-select: none;}
+ul.slides input {display: none; }
+.slide-container { display: block; }
 .slide-image {
     display: block;
     position: absolute;
@@ -236,12 +225,8 @@ ul.slides input {
     transition: opacity .2s;
     cursor: pointer;
 }
-.slide-image:hover + .carousel-controls label{
-    opacity: 0.5;
-}
-.carousel-controls label:hover {
-    opacity: 1;
-}
+.slide-image:hover + .carousel-controls label{opacity: 0.5;}
+.carousel-controls label:hover {opacity: 1;}
 .carousel-controls .prev-slide {
     width: 49%;
     text-align: left;
@@ -274,14 +259,10 @@ input:checked + .slide-container .slide-image {
     transform: scale(1);
     transition: opacity 1s ease-in-out;
 }
-input:checked + .slide-container .carousel-controls label {
-     display: block; 
-}
+input:checked + .slide-container .carousel-controls label {display: block; }
 input#img-1:checked ~ .carousel-dots label#img-dot-1,
 input#img-2:checked ~ .carousel-dots label#img-dot-2,
-input#img-3:checked ~ .carousel-dots label#img-dot-3 {
-	opacity: 1;
-}
+input#img-3:checked ~ .carousel-dots label#img-dot-3 {opacity: 1;}
 input:checked + .slide-container .nav label { display: block; }
 .learnMore {
     max-width: 205px;
@@ -308,7 +289,6 @@ input:checked + .slide-container .nav label { display: block; }
     top: 25%;
     position: absolute;
 }
-
 /* footer */
 .footer {
     max-width: 1600px;
@@ -356,9 +336,7 @@ input:checked + .slide-container .nav label { display: block; }
     color: white;
     margin-bottom: 10px;
 }
-.footer-li {
-    margin-bottom: 10px;
-}
+.footer-li {margin-bottom: 10px;}
 .online-help {
     max-width: 225px;
     width: 100%;

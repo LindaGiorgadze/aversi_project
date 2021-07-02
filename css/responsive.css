@@ -1,6 +1,6 @@
 @media (max-width: 1212px ) {.icons { display: none; } }
 @media (max-width: 600px ) {.createShelf { font-size: 30px; max-width: 270px; } }
-@media (max-width: 1001px){
+@media (max-width: 970px){
     .wrapper, 
     ul{display: block;}   
     .nav-a{display: block;}

@@ -126,14 +126,20 @@
     display: none;
     position: absolute;
     background-color: #F4F2F0;
-    max-width: 1000px;
+    max-width: 830px;
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding: 50px;
     z-index: 1;
-    margin-top: 38px;
     border-radius: 10px;
-}  
+    margin-left: 90px;
+} 
+.dropdown-list {
+    color: black;
+}
+.burgerAndCatalogy:hover + .dropdown-content {
+    display: flex;
+} 
 .catalogy,
 .fa-bars {
     color: white;
@@ -159,6 +165,7 @@
     width: 100%;
     height: auto;
     flex-direction: column;
+    margin-left: 50px;
 }
 .nav-a {
     font-size: 20px;

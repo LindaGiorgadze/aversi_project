@@ -4,7 +4,8 @@
     .wrapper, 
     ul{display: block;}   
     .nav-a{display: block;}
-    .nav-li{padding-left: 40px;}  
+    .nav-li{padding-left: 40px;}
+    .catalog {margin-left: 45px;}  
     .burger-icon{
       color: #fff;
       display: block;

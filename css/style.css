@@ -1,4 +1,5 @@
 /* header */
+body {background-color: #F4F2F0;}
 .logoandsearch {
     max-width: 1600px;
     width: 100%;
@@ -10,6 +11,7 @@
     align-items: center;
     margin: 0 auto;
     padding: 29px 0;
+    background-color: white;
 }
 .logo {
     max-width: 214px;
@@ -47,7 +49,7 @@
     margin-left: 30px;
     font-size: 18px;
 }
-.searchBox::placeholder {color: #305361;}
+.searchBox::placeholder {color: #b0bac5;}
 .icons {
     max-width: 148px;
     width: 100%;
@@ -196,6 +198,9 @@ ul.slides {
 ul.slides input {display: none; }
 .slide-container { display: block; }
 .slide-image {
+    background-image: url(../images/doctor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: block;
     position: absolute;
     width: 100%;
@@ -291,6 +296,56 @@ input:checked + .slide-container .nav label { display: block; }
     top: 25%;
     position: absolute;
 }
+/* section */
+.first-page-section {
+    margin: 76px auto;
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+}
+.online-informations {
+    max-width: 1416px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.informationDiv {
+    max-width: 460px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.red-circle {
+    max-width: 84px;
+    width: 100%;
+    height: 84px;
+    border: 3px solid #E45055;
+    border-radius: 50px;
+    padding: 16.5px;
+    margin: 26px auto;
+}
+.informationDiv-title {
+    max-width: 193px;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    margin: auto;
+}
+.informationDiv-paragraph {
+    max-width: 344px;
+    width: 100%;
+    height: auto;
+    color: #6A6A68;
+    font-size: 20px;
+    margin: 25px auto;
+}
+
 /* footer */
 .footer {
     max-width: 1600px;

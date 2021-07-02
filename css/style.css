@@ -134,12 +134,8 @@
     border-radius: 10px;
     margin-left: 90px;
 } 
-.dropdown-list {
-    color: black;
-}
-.burgerAndCatalogy:hover + .dropdown-content {
-    display: flex;
-} 
+.dropdown-list {color: black;}
+.burgerAndCatalogy:hover + .dropdown-content {display: flex;} 
 .catalogy,
 .fa-bars {
     color: white;

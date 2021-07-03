@@ -360,7 +360,7 @@ input:checked + .slide-container .nav label { display: block; }
 }
 .carousel__item--visible {
     display: flex;
-    animation: fade 500ms ease-in-out;
+    animation: fade 900ms ease-in-out;
     max-width: 1440px;
     width: 100%;
     height: auto;

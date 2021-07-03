@@ -178,7 +178,7 @@ body {background-color: #F4F2F0;}
     width: 100%;
     height: auto;
 }
-.carousel {
+.carousel1 {
     max-width: 1600px;
     width: 100%;
     height: 775px;
@@ -327,7 +327,7 @@ input:checked + .slide-container .nav label { display: block; }
     height: 84px;
     border: 3px solid #E45055;
     border-radius: 50px;
-    padding: 16.5px;
+    padding: 18px;
     margin: 26px auto;
 }
 .informationDiv-title {
@@ -345,7 +345,120 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 20px;
     margin: 25px auto;
 }
-
+.carousel {
+    align-items: center;
+    max-width: 1441px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+.carousel__item,
+.carousel__item--hidden {
+    display: none;
+}
+.carousel__item--visible {
+    display: flex;
+    animation: fade 500ms ease-in-out;
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+}
+@keyframes fade{
+     0%{
+         transform: translatex(-100%);
+    } 
+    100%{
+        transform: translatex(0);
+  }
+}
+.carousel__action{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.btn-prev,
+.btn-next{
+    padding:  1.6rem;
+    display: inline-flex;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    background: #0000;
+    position: relative;
+}
+.btn-next::before,
+.btn-prev::before {
+    cursor: pointer;
+    content:'';
+    position: absolute; 
+    width: 0;
+    height: 0;
+}
+.btn-prev::before{
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translatey(-50%);
+    border: 1.2rem solid;
+    border-color: #0000 teal #0000 #0000;
+}
+.btn-next::before{
+    top: 50%;
+    right: 50%;
+    transform:translateX(50%) translatey(-50%);
+    border: 1.2rem solid;
+    border-color: #0000 #0000 #0000 teal;
+}
+.slider_item {
+    max-width: 340px;
+    width: 100%;
+    height: auto;  
+    background-color: white;
+    margin-left: 25px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.star-and-heart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.slick-slider-block-title1 {font-size: 22px; margin-top: 30px;}
+.slick-slider-block-title2 {font-size: 18px; margin: 20px 0;}
+.priceAndBuy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.buy {
+    max-width: 100px;
+    width: 100%;
+    height: auto;  
+    border-radius: 15px;
+    border: #E93338 1px solid;
+    padding: 10px 25px;
+}
+.buyText{color: black;}
+.medicine {
+    max-width: 203px;
+    width: 100%;
+    height: auto;
+}
+.leaders-onsell {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    color: #2E2A2A; 
+    font-size: 22px;
+    margin-left: 89px;
+}
 /* footer */
 .footer {
     max-width: 1600px;

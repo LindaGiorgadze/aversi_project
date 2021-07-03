@@ -16,4 +16,5 @@
     .menu-ul.open-menu{display: block;}  
     .burgerAndCatalogy {margin-left: 0;}
     .burgerAndCatalogy:hover + .dropdown-content{display: none;}
+    .slick-dots{display: none;}
   }

@@ -143,7 +143,6 @@ body {background-color: #F4F2F0;}
 .catalogy,
 .fa-bars {
     color: white;
-    font-family: 'Roboto';
     font-size: 20px;
     margin-left: 20px;
 }
@@ -423,6 +422,19 @@ input:checked + .slide-container .nav label { display: block; }
     padding: 25px;
     border-radius: 10px;
 }
+.fa-star {
+    color: #FFBE0B;
+    font-size: 10px;
+}
+.fa-heart {
+    font-size: 22px;
+    color: #7D8078;
+}
+#heart.red {
+    color: red;
+}
+.slider_item:nth-child(3) .slick-slider-block-title1 {margin-top: 55px;}
+.slider_item:nth-child(4) .slick-slider-block-title1 {margin-top: 55px;}
 .star-and-heart {
     display: flex;
     flex-wrap: wrap;
@@ -492,6 +504,54 @@ input:checked + .slide-container .nav label { display: block; }
     width: 100%;
     height: auto;
     margin: auto;
+}
+.images {
+    max-width: 108px;
+    width: 100%;
+    height: 108px;
+    margin-bottom: 25px;
+}
+.iphone-and-mobileApp {
+    max-width: 1441px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.iphone-11 {
+    max-width: 835px;
+    width: 100%;
+    height: auto;
+}
+.mobileApp {
+    max-width: 464px;
+    width: 100%;
+    height: auto; 
+    margin-left: 30px;
+}
+.mobileApp-title {
+    font-size: 35px;
+    color: #EA3339;
+    margin-bottom: 30px;
+}
+.mobileApp-li {
+    font-size: 16px;
+    color: #6A6A68;
+    margin-bottom: 15px;
+}
+.fa-circle {
+    color: #b9252a;
+    font-size: 12px;
+    margin-right: 15px;
+}
+.appstore-an-googlplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 25px;
 }
 /* footer */
 .footer {

@@ -39,3 +39,17 @@ function moveToPrevSlide(){
   }
   updateSlidesPosition();
 }
+// heart
+(function() {
+  const heart = document.getElementById('heart');
+  heart.addEventListener('click', function() {
+    heart.classList.toggle('red');
+  });
+})();
+function myFunction() {document.getElementById('heart1').style.color = 'red';}
+function myFunction1() {document.getElementById('heart2').style.color = 'red';}
+function myFunction3() {document.getElementById('heart4').style.color = 'red';}
+function myFunction4() {document.getElementById('heart5').style.color = 'red';}
+function myFunction5() {document.getElementById('heart6').style.color = 'red';}
+function myFunction6() {document.getElementById('heart7').style.color = 'red';}
+function myFunction7() {document.getElementById('heart8').style.color = 'red';}

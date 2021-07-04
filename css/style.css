@@ -425,7 +425,7 @@ input:checked + .slide-container .nav label { display: block; }
     margin: 10px 0;
 }
 .slider_item {
-    max-width: 340px;
+    max-width: 360px;
     width: 100%;
     height: auto;  
     background-color: white;
@@ -452,6 +452,12 @@ input:checked + .slide-container .nav label { display: block; }
     justify-content: space-between;
     align-items: center;
 }
+.price {
+    max-width: 130px;
+    width: 100%;
+    height: auto; 
+    font-size: 24px;
+}
 .buy {
     max-width: 100px;
     width: 100%;
@@ -465,56 +471,6 @@ input:checked + .slide-container .nav label { display: block; }
     max-width: 203px;
     width: 100%;
     height: auto;
-}
-#wrapper1 {
-    max-width: 1441px;
-    width: 100%;
-    height: auto;
-    position: relative;
-    margin: 90px auto;
-}
-#carousel2 {
-    width: 100%;
-    overflow: auto;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-}
-#carousel2::-webkit-scrollbar {height: 0;}
-#prev,
-#next {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    color: #EA3339;
-    font-size: 45px;
-    border: none;
-    background-color: white;
-    padding: 8px;
-    border-radius: 50%;
-    outline: 0;
-    cursor: pointer;
-    position: absolute;
-}
-#prev {
-    top: 0%;
-    left: 0;
-    transform: translate(50%, -50%);
-    display: none;
-}
-#next {
-    top: 0%;
-    right: 0;
-    transform: translate(-50%, -50%);
-}
- #content {
-    max-width: 1441px;
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-gap: 16px;
-    grid-auto-flow: column;
-    margin: auto;
-    box-sizing: border-box;
 }
 .brands-block {
     max-width: 340px;
@@ -547,6 +503,65 @@ input:checked + .slide-container .nav label { display: block; }
     color: #2E2A2A; 
     font-size: 22px;
     margin: 30px auto;
+}
+.container-OfBox{
+    position: relative;
+    max-width: 1441px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 700px;
+}
+.box{
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+.box span{
+    max-width: 227px;
+    height: auto;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.all-sales {
+    font-size: 22px;
+    color: #D6D6D6;
+}
+.all-sales:hover{color: black;}
+.box span.active p{color: #fff;}
+.boxes{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.price__boxes{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.price__box{
+    width: 100%;
+    position: absolute;
+    font-size: 12px;
+    line-height: 1.5;
+    opacity: 0;
+    pointer-events: none;
+}
+.price__box.show{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.catalogy-of-products {
+    max-width: 1441px;
+    width: 100%;
+    height: auto;
+    margin: 700px auto 0;
 }
 .productCatalogy {
     max-width: 282px;

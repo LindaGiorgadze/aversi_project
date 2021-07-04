@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="icon" href="images/1562148785630740.jpg">
@@ -128,13 +127,10 @@
                     <div class="informationDiv-paragraph"><p>დააგროვე ბონუსები და ამავე დროს შეიძინე პროდუქცია ფასდაკლებით</p></div>
                 </div>
             </div>
-            <div class="carousel">
+
+            <div class="slick-sliderr" id="slick">
                 <div class="leaders-onsell"><h3>ლიდერები გაყიდვაში</h3></div>
-                <div class="carousel__action">
-                    <button class="btn-prev" id="carousel__btn--prev"></button>
-                      <button class="btn-next" id="carousel__btn--next"></button>
-                  </div>
-                <div class="carousel__item carousel__item--visible">
+                <div class="slider multiple-items">
                     <div class="slider_item">
                         <div class="star-and-heart">
                             <div>
@@ -161,7 +157,7 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <i id="heart2" onclick="myFunction1()" class="far fa-heart"></i>
+                            <i id="heart1" onclick="myFunction()" class="far fa-heart"></i>
                         </div>
                         <div class="medicine"><img class="image" src="images/medicin2.png" alt=""></div>
                         <h3 class="slick-slider-block-title1">ბიფიფორმი</h3>
@@ -179,9 +175,9 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <i id="heart" class="far fa-heart"></i>
+                            <i id="heart1" onclick="myFunction()" class="far fa-heart"></i>
                         </div>
-                        <div class="medicine"><img class="image" src="images/medicine3.png" alt=""></div>
+                        <div class="medicine"><img class="image" src="images/MaskGroup1@2x.png" alt=""></div>
                         <h3 class="slick-slider-block-title1">ვალოკორდინი</h3>
                         <h3 class="slick-slider-block-title2">ტკივილგამაყუჩებელი</h3>
                         <div class="priceAndBuy">
@@ -197,9 +193,9 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <i id="heart8" onclick="myFunction7()"  class="far fa-heart"></i>
+                            <i id="heart1" onclick="myFunction()" class="far fa-heart"></i>
                         </div>
-                        <div class="medicine"><img class="image" src="images/nurofenn.png" alt=""></div>
+                        <div class="medicine"><img class="image" src="images/medicin2.png" alt=""></div>
                         <h3 class="slick-slider-block-title1">ნუროფენი</h3>
                         <h3 class="slick-slider-block-title2">ანთების მოსახსნელი</h3>
                         <div class="priceAndBuy">
@@ -207,8 +203,6 @@
                             <div class="buy"><a class="buyText" href="#">ყიდვა</a></div>
                         </div>
                     </div>
-                </div>
-                <div class="carousel__item">
                     <div class="slider_item">
                         <div class="star-and-heart">
                             <div>
@@ -217,61 +211,7 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <i id="heart4" onclick="myFunction3()" class="far fa-heart"></i>
-                        </div>
-                        <div class="medicine"><img class="image" src="images/MaskGroup1@2x.png" alt=""></div>
-                        <h3 class="slick-slider-block-title1">დ-პანტენოლი</h3>
-                        <h3 class="slick-slider-block-title2">კრემი გარე გამოყენებისთის</h3>
-                        <div class="priceAndBuy">
-                            <h3>8.50 ლარი</h3>
-                            <div class="buy"><a class="buyText" href="#">ყიდვა</a></div>
-                        </div>
-                    </div>
-                    <div class="slider_item">
-                        <div class="star-and-heart">
-                            <div>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <i id="heart5" onclick="myFunction4()" class="far fa-heart"></i>
-                        </div>
-                        <div class="medicine"><img class="image" src="images/MaskGroup1@2x.png" alt=""></div>
-                        <h3 class="slick-slider-block-title1">დ-პანტენოლი</h3>
-                        <h3 class="slick-slider-block-title2">კრემი გარე გამოყენებისთის</h3>
-                        <div class="priceAndBuy">
-                            <h3>8.50 ლარი</h3>
-                            <div class="buy"><a class="buyText" href="#">ყიდვა</a></div>
-                        </div>
-                    </div>
-                    <div class="slider_item">
-                        <div class="star-and-heart">
-                            <div>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <i id="heart6" onclick="myFunction5()" class="far fa-heart"></i>
-                        </div>
-                        <div class="medicine"><img class="image" src="images/MaskGroup1@2x.png" alt=""></div>
-                        <h3 class="slick-slider-block-title1">დ-პანტენოლი</h3>
-                        <h3 class="slick-slider-block-title2">კრემი გარე გამოყენებისთის</h3>
-                        <div class="priceAndBuy">
-                            <h3>8.50 ლარი</h3>
-                            <div class="buy"><a class="buyText" href="#">ყიდვა</a></div>
-                        </div>
-                    </div>
-                    <div class="slider_item">
-                        <div class="star-and-heart">
-                            <div>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <i id="heart7" onclick="myFunction6()" class="far fa-heart"></i>
+                            <i id="heart1" onclick="myFunction()" class="far fa-heart"></i>
                         </div>
                         <div class="medicine"><img class="image" src="images/MaskGroup1@2x.png" alt=""></div>
                         <h3 class="slick-slider-block-title1">დ-პანტენოლი</h3>
@@ -284,29 +224,41 @@
                 </div>
             </div>
 
-            <div id="wrapper1">
-                <div id="carousel2">
-                    <div id="content">
+            <div class="slick-sliderr" id="slick">
+                <div class="slider multiple-items">
+                    <div class="slider_item">
                         <div class="brands-block">
                             <div class="photo"><img class="image" src="images/chipolino@2x.png" alt="image"></div>
                             <h3 class="dateTime">10 ივლისი, 2020</h3>
                             <div class="brands-paragraph"><p>ეწვიეთ ავერსს და ისარგებლეთ ჩიპოლინოს საბავშვო პროდუქციაზე 20%-იანი ფასდაკლებით</p></div>
                         </div>
+                    </div>
+
+                    <div class="slider_item">
                         <div class="brands-block">
                             <div class="photo"><img class="image" src="images/noreva-30-50-procenti@2x.png" alt=""></div>
                             <h3 class="dateTime">10 ივლისი, 2020</h3>
                             <div class="brands-paragraph"><p>24 - 31 ივლისს, ფრანგული ბრენდი ნორევა გთავაზობთ 30%-50% ფასდაკლებას სრულ ასორტიმენტზე</p></div>
                         </div>
+                    </div>
+
+                    <div class="slider_item">
                         <div class="brands-block">
                             <div class="photo"><img class="image" src="images/hagisi-ultra@2x.png" alt=""></div>
                             <h3 class="dateTime">10 ივლისი, 2020</h3>
                             <div class="brands-paragraph"><p>თურქული წარმოების ბავშვის საფენები პიკოლო განახლებული დიზაინითა და ხელმისაწვდომი ფასით</p></div>
                         </div>
+                    </div>
+
+                    <div class="slider_item">
                         <div class="brands-block">
                             <div class="photo"><img class="image" src="images/bifazi@2x.png" alt=""></div>
                             <h3 class="dateTime">10 ივლისი, 2020</h3>
                             <div class="brands-paragraph"><p>ეწვიეთ ავერსს და ისარგებლეთ თქვენს რჩეულ ბრენდზე საუკეთესო შემოთავაზებით!</p></div>
                         </div>
+                    </div>
+
+                    <div class="slider_item">
                         <div class="brands-block">
                             <div class="photo"><img class="image" src="images/chipolino@2x.png" alt=""></div>
                             <h3 class="dateTime">10 ივლისი, 2020</h3>
@@ -314,14 +266,7 @@
                         </div>     
                     </div>
                 </div>
-                   <button id="prev">
-                    <i class="far fa-arrow-alt-circle-left"></i>
-                   </button>
-                   <button id="next">
-                    <i class="far fa-arrow-alt-circle-right"></i>
-                   </button>
-                </div>
-           </div>
+            </div>
 
         <div>
             <div class="productCatalogy"><h3>პროდუქციის კატალოგი</h3></div>
@@ -447,8 +392,8 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/slick.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/slick.min.js"></script>
     <script src="js/script.js" defer></script>
 </body>
 </html>

@@ -93,9 +93,7 @@ body {background-color: #F4F2F0;}
     padding-top: 20px;
     padding-left: 20px;
 }
-.nav-li:hover {
-    background-color: #D62127;
-}
+.nav-li:hover {background-color: #D62127;}
 .burger-icon {
     display: block;
     font-size: 30px;
@@ -346,74 +344,85 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 20px;
     margin: 25px auto;
 }
-.carousel {
-    align-items: center;
+.slider {
     max-width: 1441px;
     width: 100%;
     height: auto;
-    overflow: hidden;
-    position: relative;
+    display: flex;
+    padding: 50px;
     margin: 0 auto;
 }
-.carousel__item,
-.carousel__item--hidden {
-    display: none;
+.slick-prev:before, .slick-next:before {
+    font-size: 70px;
+    width: 50px;
+    background-color: red;
 }
-.carousel__item--visible {
-    display: flex;
-    animation: fade 1100ms ease-in-out;
-    max-width: 1440px;
-    width: 100%;
-    height: auto;
-}
-@keyframes fade{
-     0%{
-         transform: translatex(-100%);
-    } 
-    100%{
-        transform: translatex(0);
-  }
-}
-.carousel__action{
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    transform: translateY(-50%);
-}
-.btn-prev,
-.btn-next{
-    padding:  1.6rem;
-    display: inline-flex;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    border: 0;
-    background: #0000;
+.slick-next {right: 2%;}
+.slick-slider{
     position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
 }
-.btn-next::before,
-.btn-prev::before {
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus{outline: none;}
+.slick-list.dragging{
     cursor: pointer;
-    content:'';
-    position: absolute; 
-    width: 0;
-    height: 0;
+    cursor: hand;
 }
-.btn-prev::before{
-    top: 50%;
-    left: 50%;
-    transform:translateX(-50%) translatey(-50%);
-    border: 1.2rem solid;
-    border-color: #0000 teal #0000 #0000;
+.slick-slider .slick-track,
+.slick-slider .slick-list{transform: translate3d(0, 0, 0);}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.btn-next::before{
-    top: 50%;
-    right: 50%;
-    transform:translateX(50%) translatey(-50%);
-    border: 1.2rem solid;
-    border-color: #0000 #0000 #0000 teal;
+.slick-track:before,
+.slick-track:after{
+    display: table;
+    content: '';
+}
+.slick-track:after{clear: both;}
+.slick-loading .slick-track{visibility: hidden;}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+ }
+[dir='rtl'] .slick-slide{float: right;}
+.slick-slide img{display: block;}
+.slick-slide.slick-loading img{display: none;}
+.slick-slide.dragging img{pointer-events: none;}
+.slick-initialized .slick-slide{display: block;}
+.slick-loading .slick-slide{visibility: hidden;}
+.slick-vertical .slick-slide{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-sliderr {
+    margin: 50px auto;
+}
+.slick-arrow {
+    max-width: 65px;
+    width: 100%;
+    height: 65px;
+    color: red;
+    background-color: white;
+    border-radius: 50px;
+    border: red 2px solid;
+    margin: 10px 0;
 }
 .slider_item {
     max-width: 340px;
@@ -428,14 +437,7 @@ input:checked + .slide-container .nav label { display: block; }
     color: #FFBE0B;
     font-size: 10px;
 }
-.fa-heart {
-    font-size: 22px;
-}
-#heart.red {
-    color: red;
-}
-.slider_item:nth-child(3) .slick-slider-block-title1 {margin-top: 55px;}
-.slider_item:nth-child(4) .slick-slider-block-title1 {margin-top: 55px;}
+.fa-heart {font-size: 22px;}
 .star-and-heart {
     display: flex;
     flex-wrap: wrap;
@@ -464,7 +466,6 @@ input:checked + .slide-container .nav label { display: block; }
     width: 100%;
     height: auto;
 }
-
 #wrapper1 {
     max-width: 1441px;
     width: 100%;
@@ -521,7 +522,6 @@ input:checked + .slide-container .nav label { display: block; }
     height: auto;
     background-color: white;
     border-radius: 10px;
-    padding: 40px;
 }
 .photo {
     max-width: 340px;
@@ -546,7 +546,7 @@ input:checked + .slide-container .nav label { display: block; }
     height: auto;
     color: #2E2A2A; 
     font-size: 22px;
-    margin: 70px auto;
+    margin: 30px auto;
 }
 .productCatalogy {
     max-width: 282px;

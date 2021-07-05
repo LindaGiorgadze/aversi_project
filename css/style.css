@@ -738,3 +738,18 @@ input:checked + .slide-container .nav label { display: block; }
     align-items: center;
     justify-content: space-between;
 }
+/* catalogue */
+.medicines-div {
+    background-color: white;
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    margin: 0 auto;
+}
+.catalogue-medicine,
+.catalogue-a {
+    color: #7D8078;
+    font-size: 20px;
+    margin-bottom: 13px;
+}

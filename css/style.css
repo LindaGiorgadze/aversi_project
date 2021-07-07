@@ -885,3 +885,10 @@ input:checked + .slide-container .nav label { display: block; }
     margin-top: 20px;
 }
 .red { color: red;}
+.pagination {
+    max-width: 135px;
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    margin: 41px auto 100px auto;
+}

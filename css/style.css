@@ -492,7 +492,7 @@ input:checked + .slide-container .nav label { display: block; }
 .brands-paragraph {
     max-width: 280px;
     width: 100%;
-    height: auto;
+    height: 100px;
     color: #6A6A68;
     font-size: 16px;
 }
@@ -592,7 +592,7 @@ input:checked + .slide-container .nav label { display: block; }
 }
 .catalog-img,
 .catalog-text {
-    max-width: 110px;
+    max-width: 150px;
     width: 100%;
     height: auto;
     margin: auto;
@@ -797,7 +797,8 @@ input:checked + .slide-container .nav label { display: block; }
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 .sorting {
     max-width: 390px;
@@ -806,6 +807,7 @@ input:checked + .slide-container .nav label { display: block; }
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin: 20px 0;
 }
 .fa-list {
     font-size: 30px;
@@ -818,7 +820,6 @@ input:checked + .slide-container .nav label { display: block; }
     border: 1px solid #CCCCCC;
     color: grey;
     font-size: 18px;
-    margin-left: 25px;
 }
 .sorter {
     color: #707070;

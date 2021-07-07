@@ -18,7 +18,7 @@
       cursor:pointer;}
     .menu-ul{display: none;}   
     .menu-ul.open-menu{display: block;}  
-    .burgerAndCatalogy {margin-left: 0;}
-    .burgerAndCatalogy:hover + .dropdown-content{display: none;}
+    .dropdown {margin-left: 0;}
     .slick-dots{display: none;}
   }
+  @media (max-width: 867px ) {.dropdown:hover .dropdown-content {display: none;}}

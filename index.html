@@ -23,7 +23,7 @@
                 </div>
                 <div class="icons">
                     <div class="icon"> <a class="icon-a" href="#"><i class="far fa-user"></i></a> </div>
-                    <div class="icon"> <a class="icon-a" href="#"><i class="far fa-heart heart-icon"></i></a> </div>
+                    <div class="icon"> <a class="icon-a" href="#"><i onclick="func()" class="far fa-heart heart-icon"></i></a> </div>
                     <div class="icon"> <a class="icon-a" href="#"><i class="fas fa-cart-arrow-down"></i></a> </div>
                 </div>
             </div>
@@ -31,30 +31,30 @@
             <div class="header-wraper">
                 <div class="wrapper">
                     <ul class="catalogy">
-                        <div class="burgerAndCatalogy">
-                          <div id="burger-menu" class="burger-icon">
-                            <i class="fas fa-bars"></i>
-                          </div>
-                          <h3 class="catalog"> კატალოგი </h3>
-                        </div>
-                        <div class="dropdown-content">
-                            <div class="lists">
-                                <div class="listDiv"><a class="dropdown-list" href="#"> წამლები </a></div>
-                                <div class="listDiv"><a class="dropdown-list" href="#"> კოსმეტიკა </a></div>
-                                <div class="listDiv"><a class="dropdown-list" href="#"> ჰიგიენა </a></div>
-                                <div class="listDiv"><a class="dropdown-list" href="#"> ოპტიკა </a></div>
+                        <div class="dropdown">
+                            <div id="burger-menu" class="burger-icon">
+                                <i class="fas fa-bars"></i>
                             </div>
-                            <div class="lists">
-                                <div class="listDiv"><a class="dropdown-list" href="#"> ორთოპედია </a></div>
-                                <div class="listDiv"><a class="dropdown-list" href="#"> ბავშვის კვება </a></div>
-                                <div class="listDiv"><a class="dropdown-list" href="#"> ბალახეული </a></div>
-                                <div class="listDiv"><a class="dropdown-list" href="#"> დიაგნოსტიკა </a></div> 
-                            </div>
-                            <div class="lists">
-                                <div class="listDiv"><a class="dropdown-list" href="#"> სახის მოვლა </a></div>
-                                <div class="listDiv"><a class="dropdown-list" href="#"> თავის მოვლა </a></div>
-                                <div class="listDiv"><a class="dropdown-list" href="#"> პირველი დახმარება </a></div>
-                                <div class="listDiv"><a class="dropdown-list" href="#"> სხვა </a></div>
+                            <span class="catalog">კატალოგი</span>
+                            <div class="dropdown-content">
+                                <div class="lists">
+                                    <div class="listDiv"><a class="dropdown-list" href="catalogue.html"> წამლები </a></div>
+                                    <div class="listDiv"><a class="dropdown-list" href="#"> კოსმეტიკა </a></div>
+                                    <div class="listDiv"><a class="dropdown-list" href="#"> ჰიგიენა </a></div>
+                                    <div class="listDiv"><a class="dropdown-list" href="#"> ოპტიკა </a></div>
+                                </div>
+                                <div class="lists">
+                                    <div class="listDiv"><a class="dropdown-list" href="#"> ორთოპედია </a></div>
+                                    <div class="listDiv"><a class="dropdown-list" href="#"> ბავშვის კვება </a></div>
+                                    <div class="listDiv"><a class="dropdown-list" href="#"> ბალახეული </a></div>
+                                    <div class="listDiv"><a class="dropdown-list" href="#"> დიაგნოსტიკა </a></div> 
+                                </div>
+                                <div class="lists">
+                                    <div class="listDiv"><a class="dropdown-list" href="#"> სახის მოვლა </a></div>
+                                    <div class="listDiv"><a class="dropdown-list" href="#"> თავის მოვლა </a></div>
+                                    <div class="listDiv"><a class="dropdown-list" href="#"> პირველი დახმარება </a></div>
+                                    <div class="listDiv"><a class="dropdown-list" href="#"> სხვა </a></div>
+                                </div>
                             </div>
                         </div>
                     </ul>
@@ -139,11 +139,11 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <i id="heart1" onclick="myFunction()" class="far fa-heart"></i>
+                            <i id="heart" onclick="func()" class="far fa-heart"></i>
                         </div>
                         <div class="medicine"><img class="image" src="images/MaskGroup1@2x.png" alt=""></div>
                         <h3 class="slick-slider-block-title1">დ-პანტენოლი</h3>
-                        <h3 class="slick-slider-block-title2">კრემი გარე გამოყენებისთის</h3>
+                        <div class="slick-slider-block-title2-div"><h3 class="slick-slider-block-title2">კრემი გარე გამოყენებისთის</h3></div>
                         <div class="priceAndBuy">
                             <div class="price"><h3>8.50 ლარი</h3></div>
                             <div class="buy"><a class="buyText" href="#">ყიდვა</a></div>
@@ -157,11 +157,11 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <i id="heart1" onclick="myFunction()" class="far fa-heart"></i>
+                            <i id="heart" onclick="func()" class="far fa-heart"></i>
                         </div>
                         <div class="medicine"><img class="image" src="images/medicin2.png" alt=""></div>
                         <h3 class="slick-slider-block-title1">ბიფიფორმი</h3>
-                        <h3 class="slick-slider-block-title2">კრემი გარე გამოყენებისთის</h3>
+                        <div class="slick-slider-block-title2-div"><h3 class="slick-slider-block-title2">კრემი გარე გამოყენებისთის</h3></div>
                         <div class="priceAndBuy">
                             <div class="price"><h3>18.30 ლარი</h3></div>
                             <div class="buy"><a class="buyText" href="#">ყიდვა</a></div>
@@ -175,11 +175,11 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <i id="heart1" onclick="myFunction()" class="far fa-heart"></i>
+                            <i id="heart" onclick="func()" class="far fa-heart"></i>
                         </div>
                         <div class="medicine"><img class="image" src="images/MaskGroup1@2x.png" alt=""></div>
                         <h3 class="slick-slider-block-title1">ვალოკორდინი</h3>
-                        <h3 class="slick-slider-block-title2">ტკივილ გამაყუჩებელი</h3>
+                        <div class="slick-slider-block-title2-div"><h3 class="slick-slider-block-title2">ტკივილგამაყუჩებელი</h3></div>
                         <div class="priceAndBuy">
                             <div class="price"><h3>6.20 ლარი</h3></div>
                             <div class="buy"><a class="buyText" href="#">ყიდვა</a></div>
@@ -193,11 +193,11 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <i id="heart1" onclick="myFunction()" class="far fa-heart"></i>
+                            <i id="heart" onclick="func()" class="far fa-heart"></i>
                         </div>
                         <div class="medicine"><img class="image" src="images/medicin2.png" alt=""></div>
                         <h3 class="slick-slider-block-title1">ნუროფენი</h3>
-                        <h3 class="slick-slider-block-title2">ანთების მოსახსნელი</h3>
+                        <div class="slick-slider-block-title2-div"><h3 class="slick-slider-block-title2">ანთების მოსახსნელი</h3></div>
                         <div class="priceAndBuy">
                             <div class="price"><h3>13.50 ლარი</h3></div>
                             <div class="buy"><a class="buyText" href="#">ყიდვა</a></div>
@@ -211,11 +211,11 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                             </div>
-                            <i id="heart1" onclick="myFunction()" class="far fa-heart"></i>
+                            <i id="heart" onclick="func()" class="far fa-heart"></i>
                         </div>
                         <div class="medicine"><img class="image" src="images/MaskGroup1@2x.png" alt=""></div>
                         <h3 class="slick-slider-block-title1">დ-პანტენოლი</h3>
-                        <h3 class="slick-slider-block-title2">კრემი გარე გამოყენებისთის</h3>
+                        <div class="slick-slider-block-title2-div"><h3 class="slick-slider-block-title2">კრემი გარე გამოყენებისთის</h3></div>
                         <div class="priceAndBuy">
                             <div class="price"><h3>8.50 ლარი</h3></div>
                             <div class="buy"><a class="buyText" href="#">ყიდვა</a></div>

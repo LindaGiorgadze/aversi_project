@@ -78,3 +78,9 @@ minus.addEventListener('click',() => {
     }
     document.querySelector(".adding span").innerHTML = currValue;
 });
+
+// heart
+function func()
+{
+    document.getElementById("heart").style.color="red";
+}

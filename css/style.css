@@ -271,8 +271,6 @@ input#img-2:checked ~ .carousel-dots label#img-dot-2,
 input#img-3:checked ~ .carousel-dots label#img-dot-3 {opacity: 1;}
 input:checked + .slide-container .nav label { display: block; }
 .learnMore {
-    max-width: 205px;
-    width: 100%;
     height: 54px;
     background-color: #FFFFFF21;
     border: #FFFFFF 1px solid;
@@ -344,114 +342,118 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 20px;
     margin: 25px auto;
 }
-.slider {
-    max-width: 1441px;
+/* img{
+    object-fit: cover;
+    max-width: 100%;
+} */
+.main-div-for-slider {
+    max-width: 1600px;
     width: 100%;
     height: auto;
-    display: flex;
-    padding: 50px;
-    margin: 0 auto;
+    padding: 25px;
 }
-.slick-prev:before, .slick-next:before {
-    font-size: 70px;
-    width: 50px;
-    background-color: red;
-}
-.slick-next {right: 2%;}
-.slick-slider{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-    user-select: none;
-    touch-action: pan-y;
-}
-.slick-list{
-    position: relative;
-    display: block;
+.carousel {
+    align-items: center;
     overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus{outline: none;}
-.slick-list.dragging{
-    cursor: pointer;
-    cursor: hand;
-}
-.slick-slider .slick-track,
-.slick-slider .slick-list{transform: translate3d(0, 0, 0);}
-.slick-track{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.slick-track:before,
-.slick-track:after{
-    display: table;
-    content: '';
-}
-.slick-track:after{clear: both;}
-.slick-loading .slick-track{visibility: hidden;}
-.slick-slide{
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
- }
-[dir='rtl'] .slick-slide{float: right;}
-.slick-slide img{display: block;}
-.slick-slide.slick-loading img{display: none;}
-.slick-slide.dragging img{pointer-events: none;}
-.slick-initialized .slick-slide{display: block;}
-.slick-loading .slick-slide{visibility: hidden;}
-.slick-vertical .slick-slide{
-    display: block;
+    max-width: 1200px;
+    width: 100%;
     height: auto;
-    border: 1px solid transparent;
+    position: relative;
+    margin: 90px auto;
 }
-.slick-sliderr {
-    margin: 50px auto;
-}
-.slick-arrow {
-    max-width: 65px;
-    width: 100%;
-    height: 65px;
-    color: red;
-    background-color: white;
-    border-radius: 50px;
-    border: red 2px solid;
-    margin: 10px 0;
-}
-.slider_item {
-    max-width: 360px;
-    width: 100%;
-    height: auto;  
-    background-color: white;
+.carousel__item,
+.carousel__item--hidden {display: none;}
+.imagess {
     margin-left: 25px;
+    max-width: 340px;
+    width: 100%;
+    height: auto;
+    background-color: white;
     padding: 25px;
     border-radius: 10px;
 }
+.carousel__item--visible {
+    display: flex;
+    animation: fade 900ms ease-in-out;
+}
+@keyframes fade{
+     0%{transform: translatex(-100%);} 
+    100%{transform: translatex(0);}
+}
+.carousel__action{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    max-width: 150px;
+    width: 100%;
+    height: 50px;
+    right: 15%;
+}
+.btn-prev,
+.btn-next{
+    padding:  1.6rem;
+    display: inline-flex;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    background: #0000;
+    position: relative;
+}
+.btn-next::before,
+.btn-prev::before {
+    cursor: pointer;
+    content:'';
+    position: absolute; 
+    width: 0;
+    height: 0;
+}
+.btn-prev::before{
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translatey(-50%);
+    border: 1.2rem solid;
+    border-color: #0000 teal #0000 #0000;
+}
+.btn-next::before{
+    top: 50%;
+    right: 50%;
+    transform:translateX(50%) translatey(-50%);
+    border: 1.2rem solid;
+    border-color: #0000 #0000 #0000 teal;
+}
 .fa-star {
     color: #FFBE0B;
-    font-size: 10px;
+    font-size: 12px;
 }
-.fa-heart {font-size: 22px;}
-.star-and-heart {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 25px;
+.fa-heart {
+    color: #7D8078;
+    font-size: 20px;
 }
-.slick-slider-block-title1 {font-size: 22px; margin-top: 30px;}
-.slick-slider-block-title2 {font-size: 18px; margin: 20px 0;}
-.slick-slider-block-title2-div {max-width: 250px; width: 100%; height: 36px;}
-.priceAndBuy {
+.stars-and-heart,
+.price-and-buy {
     display: flex;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
+}
+.medicine-img {
+    max-width: 245px;
+    width: 100%;
+    height: 145px;
+}
+.medicine-title {
+    font-size: 22px;
+    margin: 20px 0;
+}
+.medicine-desc {
+    color: #6A6A68;
+    font-size: 18px;
+    margin-bottom: 15px;
+    white-space: nowrap;
 }
 .price {
     max-width: 130px;
@@ -460,7 +462,7 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 24px;
 }
 .buy {
-    max-width: 100px;
+    max-width: 90px;
     width: 100%;
     height: auto;  
     border-radius: 15px;
@@ -505,59 +507,6 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 22px;
     margin: 30px auto;
 }
-.container-OfBox{
-    position: relative;
-    max-width: 1441px;
-    width: 100%;
-    height: auto;
-    margin-bottom: 700px;
-}
-.box{
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: flex-start;
-  margin: 0 auto;
-}
-.box span{
-    max-width: 227px;
-    height: auto;
-    width: 100%;
-    border: none;
-    border-radius: 5px;
-    font-size: 22px;
-    cursor: pointer;
-}
-.all-sales {
-    font-size: 22px;
-    color: #D6D6D6;
-}
-.all-sales:hover{color: black;}
-.box span.active p{color: #fff;}
-.boxes{
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-.price__boxes{
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-.price__box{
-    width: 100%;
-    position: absolute;
-    font-size: 12px;
-    line-height: 1.5;
-    opacity: 0;
-    pointer-events: none;
-}
-.price__box.show{
-    opacity: 1;
-    pointer-events: all;
-}
-
 .catalogy-of-products {
     max-width: 1441px;
     width: 100%;
@@ -858,7 +807,7 @@ input:checked + .slide-container .nav label { display: block; }
     max-width: 204px;
     width: 100%;
     height: 29px;
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     border: none;
     background-color: #F0EFEF;
     padding-left: 20px;
@@ -873,16 +822,13 @@ input:checked + .slide-container .nav label { display: block; }
     margin-top: 35px;
 }
 .medicines-box {
-    max-width: 250px;
+    max-width: 300px;
     width: 100%;
     height: auto;
     background-color: white;
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
-}
-.buy-catalog {
-    margin-top: 20px;
 }
 .red { color: red;}
 .pagination {

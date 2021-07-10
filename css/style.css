@@ -422,10 +422,7 @@ input:checked + .slide-container .nav label { display: block; }
     color: #FFBE0B;
     font-size: 12px;
 }
-.fa-heart {
-    color: #7D8078;
-    font-size: 20px;
-}
+.fa-heart {font-size: 20px;}
 .stars-and-heart,
 .price-and-buy {
     display: flex;
@@ -963,5 +960,7 @@ input:checked + .slide-container .nav label { display: block; }
     width: 100%;
     height: auto;
     font-size: 25px;
-    margin: 41px auto 100px auto;
+    margin: 41px 35px 100px auto;
 }
+.priceColor {color: red;}
+.page {color: black;}

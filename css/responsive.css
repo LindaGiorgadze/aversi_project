@@ -20,4 +20,5 @@
     .dropdown {margin-left: 0;}
     .slick-dots{display: none;}
   }
-  @media (max-width: 867px ) {.dropdown:hover .dropdown-content {display: none;}}
+@media (max-width: 867px ) {.dropdown:hover .dropdown-content {display: none;}}
+@media (max-width: 430px ) {.delete {margin-bottom: 25px;}}

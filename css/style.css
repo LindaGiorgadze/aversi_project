@@ -422,7 +422,7 @@ input:checked + .slide-container .nav label { display: block; }
     color: #FFBE0B;
     font-size: 12px;
 }
-.fa-heart {font-size: 20px;}
+.fa-heart {font-size: 25px;}
 .stars-and-heart,
 .price-and-buy {
     display: flex;
@@ -964,3 +964,194 @@ input:checked + .slide-container .nav label { display: block; }
 }
 .priceColor {color: red;}
 .page {color: black;}
+
+/* product */
+.product-medicine-descrip {
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px auto;
+}
+.medicine-front-back {
+    max-width: 170px;
+    width: 100%;
+    height: 485px;
+    margin-bottom: 25px;
+}
+.medicine-image {
+    max-width: 140px;
+    width: 100%;
+    height: 226px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.medicine-image:nth-child(1){margin-bottom: 17px;}
+.imagee2 {border-radius: 10px;}
+.medicine-main-img {
+    max-width: 656px;
+    width: 100%;
+    height: 485px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 25px;
+}
+.medicine-description {
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+}
+.h3-fontSize {
+    font-size: 20px;
+    color: #6A6A68;
+    margin-bottom: 20px;
+}
+.foont{margin-top: 20px;}
+.choose1 {
+    max-width: 89px;
+    width: 100%;
+    height: 44px;
+    border: red 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #6A6A68;
+    font-size: 19px;
+}
+.fa-chevron-down{color: #6A6A68;}
+.line {
+    max-width: 1px;
+    width: 100%;
+    height: 43px;
+    background-color: red;
+    margin-left: 8px;
+}
+.addBasket-heart {
+    max-width: 410px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.addBasket {
+    max-width: 317px;
+    width: 100%;
+    height: 62px;
+    border: red 1px solid;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 19px 59px;
+    white-space: nowrap;
+}
+.addBasketText {color: black;}
+.heartDiv {
+    max-width: 81px;
+    width: 100%;
+    height: 62px;
+    border-radius: 15px;
+    background-color: red;
+    padding: 18px 26px;
+}
+.heartBasket {
+    color: white;
+    font-size: 30px;
+}
+/* cart */
+.cart-first-block {
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+}
+.payForMedicine {
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cart-left-block {
+    max-width: 980px;
+    width: 100%;
+    height: auto;
+}
+.cart-first-left {
+    max-width: 980px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    color: #6A6A68;
+    font-size: 18px;
+}
+.cart-second-left {
+    max-width: 980px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 25px;
+    align-items: center;
+}
+.cart-second-left-img {
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+}
+.cart-second-left-title1 {
+    max-width: 140px;
+    width: 100%;
+    height: auto;
+}
+.delete { color: red;}
+.bellowLine {
+    max-width: 45px;
+    width: 100%;
+    height: 1px;
+    background-color: red;
+}
+.cart-right-block {
+    max-width: 395px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+.flex-divs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.greyLine {
+    max-width: 359px;
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin-bottom: 15px;
+}
+.buy2 {
+    max-width: 336px;
+    width: 100%;
+    height: 54px;
+    border: red 1px solid;
+    border-radius: 12px;
+    margin-top: 90px;
+    padding: 10px 132px;
+}
+.buy2text {color: black; font-size: 24px;}

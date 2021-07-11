@@ -100,3 +100,11 @@ function func()
 {
     document.getElementById("heart").style.color="red";
 }
+
+//second hide
+
+
+
+
+
+

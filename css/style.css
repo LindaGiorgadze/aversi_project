@@ -446,7 +446,6 @@ input:checked + .slide-container .nav label { display: block; }
     color: #6A6A68;
     font-size: 18px;
     margin-bottom: 15px;
-    white-space: nowrap;
 }
 .price {
     max-width: 130px;
@@ -508,6 +507,9 @@ input:checked + .slide-container .nav label { display: block; }
     position: relative;
     flex-wrap: wrap;
     margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
 }
 .box {
     display: none;
@@ -1150,13 +1152,13 @@ input:checked + .slide-container .nav label { display: block; }
     margin-bottom: 15px;
 }
 .buy2 {
-    max-width: 336px;
+    max-width: 300px;
     width: 100%;
     height: 54px;
     border: red 1px solid;
     border-radius: 12px;
     margin-top: 90px;
-    padding: 10px 132px;
+    padding: 10px 110px;
 }
 .buy2text {color: black; font-size: 24px;}
 .noReturn {margin-left: 50px; margin-top: 50px;}

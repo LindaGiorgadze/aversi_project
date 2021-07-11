@@ -96,13 +96,20 @@ function movePrevSlide2(){
 
 
 // heart
-function func()
-{
-    document.getElementById("heart").style.color="red";
-}
+
 
 //second hide
 
+
+//remove
+function myFunction() {
+    const myobj = document.getElementById("demo");
+    myobj.remove();
+}
+function myFunction1() {
+    const myobj = document.getElementById("demo1");
+    myobj.remove();
+}
 
 
 

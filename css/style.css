@@ -1065,6 +1065,45 @@ input:checked + .slide-container .nav label { display: block; }
     color: white;
     font-size: 30px;
 }
+.container3 {
+    padding: 2%;
+    margin: 0 auto 750px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+}
+.box3{
+    display: none;
+    position: absolute;
+    max-width: 1400px;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    z-index: 9;
+    margin-top: 40px;
+    left: 0%;
+    background-color: white;
+    border-radius: 10px;
+}
+.active3 .box3 {display: block;}
+.element3 {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px;
+    max-height: 110px;
+}
+.active3 {background-color: white;}
+.element3 span {
+    padding: 2% 2%;
+    width: 30%;
+    margin: 10px 10px;
+    white-space: nowrap;
+}
 /* cart */
 .cart-first-block {
     max-width: 1600px;
@@ -1191,7 +1230,7 @@ input:checked + .slide-container .nav label { display: block; }
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 50px;
+    margin: 50px auto;
 }
 .personal-info {
     max-width: 515px;
@@ -1285,18 +1324,13 @@ input:checked + .slide-container .nav label { display: block; }
     color: white;
     font-size: 20px;
 }
-.grafic {
-    display: flex;
-}
+.grafic {display: flex;}
 .graficTexts {
     color: #7D8078;
     font-size: 20px;
     margin-left: 25px;
 }
-.sunday {
-    margin-left: 50px;
-    margin-top: 7px;
-}
+.sunday {margin-top: 7px;}
 .telephone-grafic {
     display: flex;
     justify-content: space-around;
@@ -1304,3 +1338,88 @@ input:checked + .slide-container .nav label { display: block; }
     margin: 150px 0 50px 0;
 }
 .numberr { color: #6A6A68;}
+/* message */
+.message-block {
+    max-width: 557px;
+    width: 100%;
+    height: auto;
+    margin: 40px auto;
+}
+.bought-it {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 330px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.square {
+    max-width: 38px;
+    width: 100%;
+    height: 36px;
+    font-size: 55px;
+    color: red;
+}
+.boughtt {color: red; font-size: 28px;}
+.thank {font-size: 22px; margin-top: 50px;}
+.details{
+    max-width: 330px;
+    width: 100%;
+    height: 36px;
+    font-size: 18px; 
+    margin: 80px auto;
+}
+.money-for-pay-block {
+    max-width: 557px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 60px 120px;
+}
+.money-for-pay {font-size: 16px;}
+.money {color: red;}
+/* pharmacies */
+.search-map {
+    max-width: 1428px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px auto 0;
+    padding: 50px;
+}
+.cities-streets {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.searchdiv {
+    max-width: 135px;
+    width: 100%;
+    height: 44px;
+    background-color: red;
+    border-radius: 15px;
+    padding: 10px 40px;
+}
+.searchtext {color: white; font-size: 20px;}
+.selects {
+    display: flex; 
+    max-width: 460px; 
+    width: 100%; 
+    height: auto;
+     align-items: center; 
+    justify-content: space-around;
+}
+.city-select {
+    max-width: 180px;
+    width: 100%;
+    height: 35px;
+    margin: 0 15px;
+    border-radius: 15px;
+}

@@ -35,10 +35,7 @@ body {background-color: #F4F2F0;}
     padding-left: 25px;
 } 
 .searchIcon {color: #D62127;}
-.fa-search:before {
-    content: "\f002";
-    font-size: 130%;
-}
+.fa-search:before {content: "\f002"; font-size: 130%;}
 .searchBox {
     border: 0;
     flex: 1;
@@ -64,10 +61,7 @@ body {background-color: #F4F2F0;}
     height: 25px;
 }
 .icon-a,
-.heart-icon {
-    color: #D62127;
-    font-size: 25px;
-}
+.heart-icon { color: #D62127;  font-size: 25px;}
 .header-wraper{
     background: #EA3339;
     position: relative;
@@ -165,10 +159,7 @@ body {background-color: #F4F2F0;}
     flex-direction: column;
     margin-left: 50px;
 }
-.nav-a {
-    font-size: 20px;
-    color: white;
-}
+.nav-a { font-size: 20px; color: white;}
 .listDiv {
     margin-bottom: 20px;
     margin-right: 50px;
@@ -280,10 +271,7 @@ input:checked + .slide-container .nav label { display: block; }
     left: 5%;
     padding: 13px 29px;
 }
-.learnMore-a {
-    color: #3C3939;
-    font-size: 22px;
-}
+.learnMore-a { color: #3C3939;  font-size: 22px;}
 .createShelf {
     max-width: 470px;
     width: 100%;
@@ -368,10 +356,7 @@ input:checked + .slide-container .nav label { display: block; }
     padding: 25px;
     border-radius: 10px;
 }
-.carousel__item--visible {
-    display: flex;
-    animation: fade 900ms ease-in-out;
-}
+.carousel__item--visible { display: flex;  animation: fade 900ms ease-in-out;}
 @keyframes fade{
      0%{transform: translatex(-100%);} 
     100%{transform: translatex(0);}
@@ -418,10 +403,7 @@ input:checked + .slide-container .nav label { display: block; }
     border: 1.2rem solid;
     border-color: #0000 #0000 #0000 teal;
 }
-.fa-star {
-    color: #FFBE0B;
-    font-size: 12px;
-}
+.fa-star {color: #FFBE0B; font-size: 12px;}
 .fa-heart {font-size: 25px;}
 .stars-and-heart,
 .price-and-buy {
@@ -438,10 +420,7 @@ input:checked + .slide-container .nav label { display: block; }
     width: 100%;
     height: 145px;
 }
-.medicine-title {
-    font-size: 22px;
-    margin: 20px 0;
-}
+.medicine-title {font-size: 22px;  margin: 20px 0;}
 .medicine-desc {
     color: #6A6A68;
     font-size: 18px;
@@ -563,10 +542,7 @@ input:checked + .slide-container .nav label { display: block; }
     border-radius: 10px;
     padding: 15px;
 }
-.carousel__item--visible2 {
-    display: flex;
-    animation: fade 900ms ease-in-out;
-}
+.carousel__item--visible2 {display: flex; animation: fade 900ms ease-in-out;}
 @keyframes fade{
     0%{transform: translatex(-100%);} 
     100%{transform: translatex(0);}
@@ -754,10 +730,7 @@ input:checked + .slide-container .nav label { display: block; }
     width: 100%;
     height: auto;
 }
-.card-a {
-    font-size: 35px;
-    color: white;
-}
+.card-a {font-size: 35px;  color: white;}
 .company {
     font-size: 18px;
     color: white;
@@ -885,10 +858,7 @@ input:checked + .slide-container .nav label { display: block; }
     align-items: center;
     margin: 20px 0;
 }
-.fa-list {
-    font-size: 30px;
-    color: #7D8078;
-}
+.fa-list {font-size: 30px;  color: #7D8078;}
 .option2 {
     max-width: 262px;
     width: 100%;
@@ -897,10 +867,7 @@ input:checked + .slide-container .nav label { display: block; }
     color: grey;
     font-size: 18px;
 }
-.sorter {
-    color: #707070;
-    font-size: 18px;
-}
+.sorter {color: #707070; font-size: 18px;}
 .yourEmail {
     max-width: 288px;
     width: 100%;
@@ -1061,10 +1028,7 @@ input:checked + .slide-container .nav label { display: block; }
     background-color: red;
     padding: 18px 26px;
 }
-.heartBasket {
-    color: white;
-    font-size: 30px;
-}
+.heartBasket {color: white; font-size: 30px;}
 .container3 {
     padding: 2%;
     margin: 0 auto 750px;
@@ -1242,9 +1206,7 @@ input:checked + .slide-container .nav label { display: block; }
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 25px;
 }
-.info-icons {
-    margin-right: 30px;
-}
+.info-icons { margin-right: 30px;}
 .info-edit {
     max-width: 878px;
     width: 100%;
@@ -1255,10 +1217,7 @@ input:checked + .slide-container .nav label { display: block; }
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 25px;
 }
-.personalInfoTitle {
-    color: #7D8078;
-    font-size: 26px;
-}
+.personalInfoTitle {color: #7D8078; font-size: 26px;}
 .photo-edit {
     max-width: 300px;
     width: 100%;
@@ -1275,10 +1234,7 @@ input:checked + .slide-container .nav label { display: block; }
     height: 120px;
     border-radius: 50px;
 }
-.change-photoText {
-    color: #7D8078;
-    font-size: 18px;
-}
+.change-photoText {color: #7D8078; font-size: 18px;}
 .underlinegrey {
     max-width: 152px;
     width: 100%;
@@ -1286,9 +1242,7 @@ input:checked + .slide-container .nav label { display: block; }
     background-color: #7D8078;
     margin-top: 5px;
 }
-.forms-block {
-    margin-top: 50px;
-}
+.forms-block {margin-top: 50px;}
 .forms {
     max-width: 692px;
     width: 100%;
@@ -1307,10 +1261,7 @@ input:checked + .slide-container .nav label { display: block; }
     margin-top: 15px;
     padding-left: 15px;
 }
-.form-title {
-    color: #7D8078;
-    font-size: 20px;
-}
+.form-title {color: #7D8078; font-size: 20px;}
 .save {
     max-width: 156px;
     width: 100%;
@@ -1320,10 +1271,7 @@ input:checked + .slide-container .nav label { display: block; }
     padding: 15px 45px;
     margin-top: 70px;
 }
-.saveText {
-    color: white;
-    font-size: 20px;
-}
+.saveText {color: white; font-size: 20px;}
 .grafic {display: flex;}
 .graficTexts {
     color: #7D8078;

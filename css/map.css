@@ -1,0 +1,12 @@
+.map-div {
+    max-width: 1428px;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    border: white 8px solid;
+}
+#map {
+    height: 953px;
+    max-width: 1428px;
+    width: 100%;
+  }

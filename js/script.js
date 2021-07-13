@@ -118,6 +118,7 @@ function myFunction1() {
     myobj.remove();
 }
 
+//map
 
 
 

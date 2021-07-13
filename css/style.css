@@ -1371,3 +1371,9 @@ input:checked + .slide-container .nav label { display: block; }
     margin: 0 15px;
     border-radius: 15px;
 }
+#map {
+    height: 975px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}

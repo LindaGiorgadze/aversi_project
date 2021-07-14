@@ -9,4 +9,34 @@
     height: 953px;
     max-width: 1428px;
     width: 100%;
-  }
+}
+.address {
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.addressDiv {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    border-bottom: grey 1px solid;
+    padding-bottom: 15px;
+}
+.marker-titles {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fa-map-marker-alt {
+    color: red;
+    font-size: 35px;
+}

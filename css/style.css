@@ -961,8 +961,12 @@ input:checked + .slide-container .nav label { display: block; }
     margin: 10px;
     padding: 5px;
     max-height: 110px;
+    background-color: grey;
+    border-radius: 20px;
+    color: white;
 }
-.active3 {background-color: white;}
+.hidetext {margin-top: 13px;}
+.active3 {background-color: white; border-radius: 20px; padding: 20px; color: red;}
 /* cart */
 .cart-first-block {
     max-width: 1600px;

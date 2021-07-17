@@ -426,7 +426,6 @@ input:checked + .slide-container .nav label { display: block; }
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    margin: 0 auto;
     max-width: 1600px;
     width: 100%;
     height: auto;
@@ -451,7 +450,8 @@ input:checked + .slide-container .nav label { display: block; }
     margin-left: 80px;
     padding: 5px;
 }
-.active {background-color: aquamarine;}
+.inner-block {max-width: 150px; widows: 100%; height: auto; margin: auto;}
+.active {background-color: white; border-radius: 15px;}
 .element span {
     padding: 2% 2%;
     width: 30%;

@@ -633,9 +633,7 @@ input:checked + .slide-container .nav label { display: block; }
     justify-content: flex-start;
     margin-top: 25px;
 }
-.app {
-    filter: opacity(0.6);
-}
+.app { filter: opacity(0.6);}
 /* footer */
 .footer {
     max-width: 1600px;
@@ -950,9 +948,7 @@ input:checked + .slide-container .nav label { display: block; }
     background-color: white;
     border-radius: 10px;
 }
-.reduksin {
-    margin: 15px 0;
-}
+.reduksin { margin: 15px 0;}
 .active3 .box3 {display: block;}
 .element3 {
     display: flex;
@@ -1289,13 +1285,5 @@ input:checked + .slide-container .nav label { display: block; }
     margin: 0 auto;
 }
 /* heart */
-.block {
-    color: grey;
-    font-size: 25px;
-    font-weight:bold;
- }
- .rotated {
-    color: red;
-    font-weight:bold;
-    font-size: 25px;
-}
+.block { color: grey; font-size: 25px; font-weight:bold;}
+ .rotated { color: red; font-weight:bold; font-size: 25px;}

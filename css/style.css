@@ -230,6 +230,7 @@ input:checked + .slide-container .nav label { display: block; }
     top: 50%;
     left: 5%;
     padding: 13px 29px;
+    cursor: pointer;
 }
 .learnMore-a { color: #3C3939;  font-size: 22px;}
 .createShelf {
@@ -365,7 +366,6 @@ input:checked + .slide-container .nav label { display: block; }
     border-color: #0000 #0000 #0000 teal;
 }
 .fa-star {color: #FFBE0B; font-size: 12px;}
-.fa-heart {font-size: 25px;}
 .stars-and-heart,
 .price-and-buy {
     display: flex;
@@ -392,6 +392,7 @@ input:checked + .slide-container .nav label { display: block; }
     border-radius: 15px;
     border: #E93338 1px solid;
     padding: 10px 25px;
+    cursor: pointer;
 }
 .buyText{color: black;}
 .medicine { max-width: 203px; width: 100%; height: auto;}
@@ -579,7 +580,7 @@ input:checked + .slide-container .nav label { display: block; }
     justify-content: space-around;
 }
 .lists-icons {
-    max-width: 60px;
+    max-width: 90px;
     width: 100%;
     height: auto;
     display: flex;
@@ -590,6 +591,7 @@ input:checked + .slide-container .nav label { display: block; }
     max-width: 25px;
     width: 100%;
     height: 24px;
+    cursor: pointer;
 }
 .catalog-img,
 .catalog-text {
@@ -759,7 +761,7 @@ input:checked + .slide-container .nav label { display: block; }
     align-items: center;
     margin: 20px 0;
 }
-.fa-list {font-size: 30px;  color: #7D8078;}
+.fa-list {font-size: 30px;  color: #7D8078; cursor: pointer;}
 .option2 {
     max-width: 262px;
     width: 100%;
@@ -807,11 +809,11 @@ input:checked + .slide-container .nav label { display: block; }
     padding-left: 20px;
 }
 .catalogue-medicines-box {
-    max-width: 1118px;
+    max-width: 1318px;
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 35px;
 }
@@ -1275,4 +1277,15 @@ input:checked + .slide-container .nav label { display: block; }
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+}
+/* heart */
+.block {
+    color: grey;
+    font-size: 25px;
+    font-weight:bold;
+ }
+ .rotated {
+    color: red;
+    font-weight:bold;
+    font-size: 25px;
 }

@@ -436,7 +436,7 @@ input:checked + .slide-container .nav label { display: block; }
     position: absolute;
     padding: 5px;
     z-index: 9;
-    margin-top: 150px;
+    margin-top: 70px;
     left: 0;
     max-width: 1600px;
     width: 100%;
@@ -592,6 +592,7 @@ input:checked + .slide-container .nav label { display: block; }
     width: 100%;
     height: 24px;
     cursor: pointer;
+    filter: opacity(0.5);
 }
 .catalog-img,
 .catalog-text {
@@ -631,6 +632,9 @@ input:checked + .slide-container .nav label { display: block; }
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-top: 25px;
+}
+.app {
+    filter: opacity(0.6);
 }
 /* footer */
 .footer {
@@ -845,7 +849,10 @@ input:checked + .slide-container .nav label { display: block; }
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 40px auto;
+    padding-left: 25px;
 }
+.descr-column { display: flex; flex-direction: column;}
+.manufacturer, .code {margin: 25px 0;}
 .medicine-front-back {
     max-width: 170px;
     width: 100%;
@@ -865,6 +872,7 @@ input:checked + .slide-container .nav label { display: block; }
 }
 .medicine-description { max-width: 420px; width: 100%; height: auto;}
 .span-fontSize { font-size: 20px; color: #6A6A68; margin-bottom: 20px;}
+.descrip2 { display: flex; flex-direction: column;}
 .foont{margin-top: 20px;}
 .choose1 {
     max-width: 89px;
@@ -918,6 +926,7 @@ input:checked + .slide-container .nav label { display: block; }
     padding: 18px 26px;
 }
 .heartBasket {color: white; font-size: 30px;}
+.anotation {  margin-top: 150px;}
 .container3 {
     padding: 2%;
     margin: 0 auto 750px;
@@ -936,10 +945,13 @@ input:checked + .slide-container .nav label { display: block; }
     height: auto;
     padding: 40px;
     z-index: 9;
-    margin-top: 40px;
+    margin-top: 70px;
     left: 0%;
     background-color: white;
     border-radius: 10px;
+}
+.reduksin {
+    margin: 15px 0;
 }
 .active3 .box3 {display: block;}
 .element3 {
@@ -951,12 +963,6 @@ input:checked + .slide-container .nav label { display: block; }
     max-height: 110px;
 }
 .active3 {background-color: white;}
-.element3 span {
-    padding: 2% 2%;
-    width: 30%;
-    margin: 10px 10px;
-    white-space: nowrap;
-}
 /* cart */
 .cart-first-block {
     max-width: 1600px;

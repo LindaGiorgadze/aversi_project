@@ -1026,7 +1026,7 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 18px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.cart-left-block { max-width: 980px; widows: 100%; height: auto;}
+.cart-left-block { max-width: 980px; width: 100%; height: auto;}
 .cart-second-left {
     max-width: 980px;
     width: 100%;
@@ -1068,7 +1068,7 @@ input:checked + .slide-container .nav label { display: block; }
 }
 .counter-numb {font-size: 30px;}
 .cart-second-left-title1 { max-width: 140px; width: 100%; height: auto;}
-.delete { color: red; border-bottom: red 1px solid; text-align: center;}
+.delete { color: red; border-bottom: red 1px solid; text-align: center; width: 48px;}
 .price-delete { display: flex; flex-direction: column; padding: 20px;}
 .bellowLine {
     max-width: 45px;

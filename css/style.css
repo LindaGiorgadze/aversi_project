@@ -552,7 +552,7 @@ input:checked + .slide-container .nav label { display: block; }
     height: auto;
     margin: 700px auto 0;
 }
-.product_preview { display: flex; flex-direction: row;  justify-content: space-around;}
+.product_preview { display: flex; flex-direction: row;  justify-content: space-around; flex-wrap: wrap;}
 .left-side {
    display: flex;
    flex-direction: column;
@@ -564,7 +564,7 @@ input:checked + .slide-container .nav label { display: block; }
 .image:hover {cursor: pointer;}
 .right-side {
    display: inline-block;
-   max-width: 450px;
+   max-width: 300px;
    width: 100%;
    height: 485px;
    background-position: 50%;

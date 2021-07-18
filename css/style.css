@@ -450,7 +450,7 @@ input:checked + .slide-container .nav label { display: block; }
     margin-left: 80px;
     padding: 5px;
 }
-.inner-block {max-width: 150px; widows: 100%; height: auto; margin: auto;}
+.inner-block {max-width: 150px; width: 100%; height: auto; margin: auto;}
 .active {background-color: white; border-radius: 15px;}
 .element span {
     padding: 2% 2%;

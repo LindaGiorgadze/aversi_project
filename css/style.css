@@ -1026,6 +1026,7 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 18px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.cart-left-block { max-width: 980px; widows: 100%; height: auto;}
 .cart-second-left {
     max-width: 980px;
     width: 100%;
@@ -1068,7 +1069,7 @@ input:checked + .slide-container .nav label { display: block; }
 .counter-numb {font-size: 30px;}
 .cart-second-left-title1 { max-width: 140px; width: 100%; height: auto;}
 .delete { color: red; border-bottom: red 1px solid; text-align: center;}
-.price-delete { display: flex; flex-direction: column;}
+.price-delete { display: flex; flex-direction: column; padding: 20px;}
 .bellowLine {
     max-width: 45px;
     width: 100%;
@@ -1135,7 +1136,10 @@ input:checked + .slide-container .nav label { display: block; }
     justify-content: space-around;
     margin: 50px auto;
 }
+.bottom {margin-bottom: 35px;}
 .personal-info {
+    display: flex;
+    flex-direction: column;
     max-width: 515px;
     width: 100%;
     height: 793px; 
@@ -1145,6 +1149,8 @@ input:checked + .slide-container .nav label { display: block; }
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 25px;
 }
+.personal-info-a { color: #7D8078; font-size: 22px;}
+.personal-info-a:hover { border-bottom: red 4px solid;}
 .info-icons { margin-right: 30px;}
 .info-edit {
     max-width: 878px;
@@ -1207,11 +1213,14 @@ input:checked + .slide-container .nav label { display: block; }
     height: 52px;
     background-color: #EC5257;
     border-radius: 15px;
-    padding: 15px 45px;
-    margin-top: 70px;
+    padding: 12px 45px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    border: none;
 }
-.saveText {color: white; font-size: 20px;}
 .grafic {display: flex;}
+.grafics {display: flex; flex-direction: column;}
 .graficTexts {  color: #7D8078; font-size: 20px;   margin-left: 25px;}
 .sunday {margin-top: 7px;}
 .telephone-grafic {
@@ -1236,6 +1245,7 @@ input:checked + .slide-container .nav label { display: block; }
     width: 100%;
     height: auto;
     align-items: center;
+    margin: 0 auto;
 }
 .square {
     max-width: 38px;
@@ -1245,7 +1255,7 @@ input:checked + .slide-container .nav label { display: block; }
     color: red;
 }
 .boughtt {color: red; font-size: 28px;}
-.thank {font-size: 22px; margin-top: 50px;}
+.thank {font-size: 22px; margin-top: 50px; text-align: center;}
 .details{
     max-width: 330px;
     width: 100%;

@@ -941,6 +941,7 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 20px;
     padding: 19px 59px;
     white-space: nowrap;
+    cursor: pointer;
 }
 .addBasketText {color: black;}
 .heartDiv {
@@ -1101,6 +1102,7 @@ input:checked + .slide-container .nav label { display: block; }
     border-radius: 12px;
     margin-top: 90px;
     padding: 10px 110px;
+    cursor: pointer;
 }
 .buy2text {color: black; font-size: 24px;}
 .noReturn {margin-left: 50px; margin-top: 50px;}

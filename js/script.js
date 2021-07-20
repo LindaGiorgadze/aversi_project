@@ -93,8 +93,6 @@ function movePrevSlide2(){
     }
     updateSlidePositions();
 }
-// heart
-
 //second hide and show
 const element3 = document.querySelectorAll('.element3');
 element3.forEach(function(el3, key3){                

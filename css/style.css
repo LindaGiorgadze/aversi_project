@@ -1230,7 +1230,10 @@ input:checked + .slide-container .nav label { display: block; }
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 150px 0 50px 0;
+    margin: 150px auto 50px;
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
 }
 .numberr { color: #6A6A68;}
 /* message */
@@ -1318,6 +1321,7 @@ input:checked + .slide-container .nav label { display: block; }
     height: 35px;
     margin: 0 15px;
     border-radius: 15px;
+    outline: none;
 }
 #map {
     height: 975px;

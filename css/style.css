@@ -1218,6 +1218,7 @@ input:checked + .slide-container .nav label { display: block; }
     color: white;
     font-size: 20px;
     border: none;
+    cursor: pointer;
 }
 .grafic {display: flex;}
 .grafics {display: flex; flex-direction: column;}

@@ -952,7 +952,7 @@ input:checked + .slide-container .nav label { display: block; }
     border: red 1px solid;
     padding: 18px 26px;
 }
-.heartBasket {color: #7D8078; font-size: 30px;}
+.heartBasket {color: white; font-size: 30px;}
 .anotation {  margin-top: 150px;}
 .container3 {
     padding: 2%;

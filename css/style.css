@@ -1158,12 +1158,9 @@ input:checked + .slide-container .nav label { display: block; }
     margin-bottom: 25px;
 }
 .personal-info-a { color: #7D8078; font-size: 22px;}
-.personal-info-a:hover { border-bottom: red 4px solid;}
 .info-icons { margin-right: 30px;}
 .info-edit {
-    max-width: 878px;
     width: 100%;
-    height: 793px;
     background-color: white;
     border-radius: 10px;
     padding: 50px;
@@ -1204,6 +1201,49 @@ input:checked + .slide-container .nav label { display: block; }
     flex-direction: column;
     margin-bottom: 50px;
 }
+.container4 {
+    padding: 2%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+}
+.box4 {
+    display: none;
+    /* overflow-y: scroll; */
+    position: absolute;
+    max-width: 552px;
+    width: 100%;
+    height: 753px;
+    border-radius: 5px;
+    right: 10%;
+    top: 70%;
+    transform: translate(0, -50%);
+    padding: 5px;
+    z-index: 9;
+}
+.active4 .box4 {display: block;}
+.element4 {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px 5px;
+    max-height: 110px;
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+}
+.active4 { border-bottom: red 5px solid;}
+.element4 span {
+    padding: 2% 2%;
+    width: 30%;
+    margin: 10px 10px;
+    white-space: nowrap;
+}
 .form {
     max-width: 692px;
     width: 100%;
@@ -1237,7 +1277,7 @@ input:checked + .slide-container .nav label { display: block; }
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 150px auto 50px;
+    margin: 260px auto 50px;
     max-width: 1600px;
     width: 100%;
     height: auto;

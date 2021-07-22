@@ -27,7 +27,7 @@
                 </div>
                 <div class="icons">
                     <div class="icon"> <a class="icon-a" href="cabinet.html"><i class="far fa-user"></i></a> </div>
-                    <div class="icon"> <a class="icon-a" href="#"><i onclick="func()" class="far fa-heart heart-icon"></i></a> </div>
+                    <div class="icon"> <a class="icon-a" href="#"><i class="far fa-heart heart-icon"></i></a> </div>
                     <div class="icon"> <a class="icon-a" href="cart.html"><i class="fas fa-cart-arrow-down"></i></a> </div>
                 </div>
             </div>
@@ -63,6 +63,7 @@
                         </div>
                     </ul>
                     <ul id="menu" class="menu-ul">
+                        <div class="nav-li nav-li-catalog"><li><a class="nav-a" href="catalogue.html">კატალოგი</a></li></div>
                         <div class="nav-li"><li><a class="nav-a" href="map.html">აფთიაქები</a></li></div>
                         <div class="nav-li"><li><a class="nav-a" href="#">კლინიკები</a></li></div>
                         <div class="nav-li"><li><a class="nav-a" href="#">ჩვენს შესახებ</a></li></div>
@@ -107,7 +108,7 @@
                     </div>
                 </form>
                 <div class="searchdiv"><a class="searchtext" href="#">ძებნა</a></div>
-                <h3>ძებნა <a href="#">მისამრთის მიხედვით</a></h3>
+                <h3>ძებნა <a href="#">მისამართის მიხედვით</a></h3>
             </div>
         </div>
     </section>
@@ -130,43 +131,43 @@
         <div class="address">
             <div class="addressDiv">
                 <div class="marker-titles">
-                    <i class="fas fa-map-marker-alt"></i>
+                    <div><img src="images/pin.svg" alt="image"></div>
                     <div>
                         <h3>ავერსის აფთიაქი №1</h3>
                         <h3>თბილისი, პოლიტკოვსკაიას ქ. #8</h3>
                     </div>
                 </div>
-                <div><img src="images/camera.svg" alt="image"></div>
+                <div class="camera"><img src="images/camera.svg" alt="image"></div>
             </div>
             <div class="addressDiv">
                 <div class="marker-titles">
-                    <i class="fas fa-map-marker-alt"></i>
+                    <div><img src="images/pin.svg" alt="image"></div>
                     <div>
                         <h3>ავერსის აფთიაქი №1</h3>
                         <h3>თბილისი, პოლიტკოვსკაიას ქ. #8</h3>
                     </div>
                 </div>
-                <div><img src="images/camera.svg" alt="image"></div>
+                <div class="camera"><img src="images/camera.svg" alt="image"></div>
             </div>
             <div class="addressDiv">
                 <div class="marker-titles">
-                    <i class="fas fa-map-marker-alt"></i>
+                    <div><img src="images/pin.svg" alt="image"></div>
                     <div>
                         <h3>ავერსის აფთიაქი №1</h3>
                         <h3>თბილისი, პოლიტკოვსკაიას ქ. #8</h3>
                     </div>
                 </div>
-                <div><img src="images/camera.svg" alt="image"></div>
+                <div class="camera"><img src="images/camera.svg" alt="image"></div>
             </div>
             <div class="addressDiv">
                 <div class="marker-titles">
-                    <i class="fas fa-map-marker-alt"></i>
+                    <div><img src="images/pin.svg" alt="image"></div>
                     <div>
                         <h3>ავერსის აფთიაქი №1</h3>
                         <h3>თბილისი, პოლიტკოვსკაიას ქ. #8</h3>
                     </div>
                 </div>
-                <div><img src="images/camera.svg" alt="image"></div>
+                <div class="camera"><img src="images/camera.svg" alt="image"></div>
             </div>
         </div>
     </section>
@@ -175,15 +176,18 @@
     <section>
         <div class="telephone-grafic">
             <div class="grafic">
-                <h3 class="graficTexts">აფთიაქების მუშაობის გრაფიკი: </h3>
-                <div>
-                    <h3 class="graficTexts"> <i class="fas fa-clock"></i> ორშ - პარ: 10:30 - 21:00</h3>
-                    <h3 class="graficTexts sunday">შაბ: 10:30 - 21:00</h3>
-                    <h3 class="graficTexts sunday">კვ: 10:30 - 21:00</h3>
+                <span class="graficTexts">აფთიაქების მუშაობის გრაფიკი: </span>
+                <div class="grafics">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <span class="graficTexts"> ორშ - პარ: 10:30 - 21:00</span>
+                        <span class="graficTexts sunday">შაბ: 10:30 - 21:00</span>
+                        <span class="graficTexts sunday">კვ: 10:30 - 21:00</span>
+                    </div>
                 </div>
             </div>
             
-            <div><h3 class="graficTexts">დახმარებისთვის დაგვიკავშირდით: <i class="fas fa-phone-alt"></i> <a class="numberr" href="#">2–900–800</a></h3></div>
+            <div><span class="graficTexts">დახმარებისთვის დაგვიკავშირდით: <i class="fas fa-phone-alt"></i> <a class="numberr" href="#">2–900–800</a></span></div>
         </div>
     </section>
     
@@ -236,6 +240,9 @@
             </div>
         </div>
     </footer>
-  <script src="js/map.js" defer></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/map.js" ></script>
 </body>
 </html>

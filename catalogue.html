@@ -63,6 +63,7 @@
                         </div>
                     </ul>
                     <ul id="menu" class="menu-ul">
+                        <div class="nav-li nav-li-catalog"><li><a class="nav-a" href="catalogue.html">კატალოგი</a></li></div>
                         <div class="nav-li"><li><a class="nav-a" href="map.html">აფთიაქები</a></li></div>
                         <div class="nav-li"><li><a class="nav-a" href="#">კლინიკები</a></li></div>
                         <div class="nav-li"><li><a class="nav-a" href="#">ჩვენს შესახებ</a></li></div>
@@ -89,8 +90,8 @@
         <div class="catalogue-main-block">
             <div class="left-block">
                 <div class="filter">
-                    <h3 class="sorter">გაფილტვრა</h3>
-                    <form action="">
+                    <span class="sorter">გაფილტვრა <i onclick="toggle_div_fun('sectiontohide');" class="fas fa-sort-down"></i></span>
+                    <form action="" id="sectiontohide">
                         <div class="selects">
                             <select class="option">
                                 <option value="0">ფასით</option>

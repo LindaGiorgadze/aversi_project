@@ -1,11 +1,14 @@
-@media (max-width: 1359px ) { .right-block { max-width: 900px; width: 100%; height: auto;}}
+@media (max-width: 1359px ) { .right-block { max-width: 900px; width: 100%; height: auto;} .cart-right-block {margin-top: 25px;}}
 @media (max-width: 1212px ) {.icons { display: none; } }
 @media (max-width: 1207px ) { .right-block { max-width: 700px; width: 100%; height: auto;} }
 @media (max-width: 1150px ) { .container3 {margin-bottom: 750px;} }
 @media (max-width: 1082px ) { .container3 {margin-bottom: 950px;} }
+@media (max-width: 1066px ) { .graficTexts {margin-top: 25px;} }
 @media (max-width: 1007px ) { .right-block { max-width: 362px; width: 100%; height: auto;} }
 @media (max-width: 716px ) { .container3 {margin-bottom: 1200px;} }
+/* @media (max-width: 670px ) { .selects {display: none;} } */
 @media (max-width: 669px ) { .right-block { max-width: 700px; width: 100%; height: auto;} }
+@media (max-width: 665px ) {.catalogue-medicines-box{justify-content: space-around;} }
 @media (max-width: 600px ) {.createShelf { font-size: 30px; max-width: 270px; } }
 @media (max-width: 560px ) { .container3 {margin-bottom: 1500px;} }
 @media (max-width: 440px ) { .heartDiv {margin: 20px 0;} }
@@ -16,17 +19,24 @@
     .wrapper, 
     ul{display: block;}   
     .nav-a{display: block;}
-    .catalog {margin-left: 45px;}  
+    .catalog {display: none;}  
     .burger-icon{
       color: #fff;
       display: block;
       font-size: 30px;
       position: absolute;
-      cursor:pointer;}
+      cursor:pointer;
+      max-width: 50px;
+      width: 100%;
+      height: 50px;
+    }
+    .fa-bars {font-size: 35px;}
     .menu-ul{display: none;}   
-    .menu-ul.open-menu{display: block;}  
-    .dropdown {margin-left: 0;}
+    .menu-ul.open-menu{display: block;}
+    .nav-li-catalog {display: block;}  
+    .dropdown {margin-left: 0; max-width: 70px;}
     .slick-dots{display: none;}
   }
 @media (max-width: 867px ) {.dropdown:hover .dropdown-content {display: none;}}
+@media (max-width: 463px ) {.camera {display: none;}}
 @media (max-width: 430px ) {.delete {margin-bottom: 25px;}}

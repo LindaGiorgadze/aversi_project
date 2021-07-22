@@ -27,7 +27,7 @@
                 </div>
                 <div class="icons">
                     <div class="icon"> <a class="icon-a" href="cabinet.html"><i class="far fa-user"></i></a> </div>
-                    <div class="icon"> <a class="icon-a" href="#"><i onclick="func()" class="far fa-heart heart-icon"></i></a> </div>
+                    <div class="icon"> <a class="icon-a" href="#"><i class="far fa-heart heart-icon"></i></a> </div>
                     <div class="icon"> <a class="icon-a" href="cart.html"><i class="fas fa-cart-arrow-down"></i></a> </div>
                 </div>
             </div>
@@ -63,6 +63,7 @@
                         </div>
                     </ul>
                     <ul id="menu" class="menu-ul">
+                        <div class="nav-li nav-li-catalog"><li><a class="nav-a" href="catalogue.html">კატალოგი</a></li></div>
                         <div class="nav-li"><li><a class="nav-a" href="map.html">აფთიაქები</a></li></div>
                         <div class="nav-li"><li><a class="nav-a" href="#">კლინიკები</a></li></div>
                         <div class="nav-li"><li><a class="nav-a" href="#">ჩვენს შესახებ</a></li></div>
@@ -85,41 +86,87 @@
     </section>
 
     <section>
-        <div class="personal-info-block">
-            <div class="personal-info">
+        <div class="container4">
+            <div class="element4 active4">
                 <div class="span-fontSize bottom"><i class="info-icons fas fa-user-tie"></i> <a class="personal-info-a" href="#">პირადი ინფორმაცია</a></div>
-                <div class="span-fontSize bottom"><i class="info-icons fas fa-id-card"></i> <a class="personal-info-a" href="#">მტრედი ბარათის ქულების შემოწმება</a></div>
-                <div class="span-fontSize bottom"><i class="info-icons fas fa-exchange-alt"></i> <a class="personal-info-a" href="#">მტრედი ბარათის ანგარიშზე მიბმა</a></div>
-                <div class="span-fontSize bottom"><i class="info-icons fas fa-gift"></i> <a class="personal-info-a" href="#">საჩუქრის არჩევა ქულების მიხედვით</a></div>
-                <div class="span-fontSize bottom"><i class="info-icons fas fa-address-book"></i> <a class="personal-info-a" href="#">მისამართების მართვა</a></div>
-                <div class="span-fontSize bottom"><i class="info-icons fas fa-info-circle"></i> <a class="personal-info-a" href="#">ინფორმაცია შეკვეთებზე</a></div>
-            </div>
-            <div class="info-edit">
-                <span class="personalInfoTitle">პირადი ინფორმაციის რედაქტირება</span>
-                <div class="photo-edit">
-                    <div class="photo-to-edit"><img class="image" src="images/profile.png" alt="image"></div>
-                    <div>
-                        <a class="change-photoText" href="#">სურათის შეცვლა</a>
-                        <div class="underlinegrey"></div>
+                <div class="box4">
+                    <div class="info-edit">
+                        <span class="personalInfoTitle">პირადი ინფორმაციის რედაქტირება</span>
+                        <div class="photo-edit">
+                            <div class="photo-to-edit"><img class="image" src="images/profile.png" alt="image"></div>
+                            <div>
+                                <a class="change-photoText" href="#">სურათის შეცვლა</a>
+                                <div class="underlinegrey"></div>
+                            </div>
+                        </div>
+                        <form action="">
+                            <div class="forms-block">
+                                <div class="forms">
+                                    <label class="form-title" for="phone">მობილური ნომერი:</label>
+                                    <input class="form" type="tel" id="phone" name="phone" placeholder="577777777" required>
+                                </div>
+                                <div class="forms">
+                                    <label class="form-title" for="email">ელ-ფოსტა:</label>
+                                    <input class="form" type="email" id="email" name="email">
+                                </div>
+                                <div class="forms">
+                                    <label class="form-title" for="homepage">მისამართი:</label>
+                                    <input class="form" type="url" id="homepage" name="homepage">
+                                </div>
+                            </div>
+                            <button class="save">შენახვა</button>
+                        </form>
                     </div>
                 </div>
-                <form action="">
-                    <div class="forms-block">
-                        <div class="forms">
-                            <label class="form-title" for="phone">მობილური ნომერი:</label>
-                            <input class="form" type="tel" id="phone" name="phone" placeholder="577777777" required>
-                        </div>
-                        <div class="forms">
-                            <label class="form-title" for="email">ელ-ფოსტა:</label>
-                            <input class="form" type="email" id="email" name="email">
-                        </div>
-                        <div class="forms">
-                            <label class="form-title" for="homepage">მისამართი:</label>
-                            <input class="form" type="url" id="homepage" name="homepage">
-                        </div>
-                    </div>
-                    <button class="save">შენახვა</button>
-                </form>
+            </div>
+            <div class="element4 ">
+                <div class="span-fontSize bottom"><i class="info-icons fas fa-id-card"></i> <a class="personal-info-a" href="#">მტრედი ბარათის ქულების შემოწმება</a></div>
+                <div class="box4">
+                    <h2>Box Title 2</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus in possimus alias eveniet deleniti cum ipsam. Temporibus quisquam, ipsam accusamus rerum voluptatum nesciunt, animi, earum fuga cumque omnis iste placeat.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, animi, cupiditate eos quae architecto ipsa, porro accusamus modi qui doloremque ex ut ratione eligendi harum enim aspernatur hic asperiores consequuntur.
+                    </p>
+                </div>
+            </div>
+            <div class="element4 ">
+                <div class="span-fontSize bottom"><i class="info-icons fas fa-exchange-alt"></i> <a class="personal-info-a" href="#">მტრედი ბარათის ანგარიშზე მიბმა</a></div>
+                <div class="box4">
+                    <h2>Box Title 3</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus in possimus alias eveniet deleniti cum ipsam. Temporibus quisquam, ipsam accusamus rerum voluptatum nesciunt, animi, earum fuga cumque omnis iste placeat.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequatur ipsa fugit. Ipsam nihil dicta quo similique reprehenderit veritatis odio est voluptatibus expedita porro. Explicabo, porro ex. Nisi, provident accusamus.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque nostrum expedita est voluptatem animi, non magni veritatis porro repellat? Error, cupiditate repellat. Architecto atque, provident aut laborum tempore modi recusandae.
+                    </p>
+                </div>
+            </div>
+            <div class="element4 ">
+                <div class="span-fontSize bottom"><i class="info-icons fas fa-gift"></i> <a class="personal-info-a" href="#">საჩუქრის არჩევა ქულების მიხედვით</a></div>
+                <div class="box4">
+                    <h2>Box Title 3</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus in possimus alias eveniet deleniti cum ipsam. Temporibus quisquam, ipsam accusamus rerum voluptatum nesciunt, animi, earum fuga cumque omnis iste placeat.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequatur ipsa fugit. Ipsam nihil dicta quo similique reprehenderit veritatis odio est voluptatibus expedita porro. Explicabo, porro ex. Nisi, provident accusamus.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque nostrum expedita est voluptatem animi, non magni veritatis porro repellat? Error, cupiditate repellat. Architecto atque, provident aut laborum tempore modi recusandae.
+                    </p>
+                </div>
+            </div>
+            <div class="element4 ">
+                <div class="span-fontSize bottom"><i class="info-icons fas fa-address-book"></i> <a class="personal-info-a" href="#">მისამართების მართვა</a></div>
+                <div class="box4">
+                    <h2>Box Title 3</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus in possimus alias eveniet deleniti cum ipsam. Temporibus quisquam, ipsam accusamus rerum voluptatum nesciunt, animi, earum fuga cumque omnis iste placeat.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequatur ipsa fugit. Ipsam nihil dicta quo similique reprehenderit veritatis odio est voluptatibus expedita porro. Explicabo, porro ex. Nisi, provident accusamus.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque nostrum expedita est voluptatem animi, non magni veritatis porro repellat? Error, cupiditate repellat. Architecto atque, provident aut laborum tempore modi recusandae.
+                    </p>
+                </div>
+            </div>
+            <div class="element4 ">
+                <div class="span-fontSize bottom"><i class="info-icons fas fa-info-circle"></i> <a class="personal-info-a" href="#">ინფორმაცია შეკვეთებზე</a></div>
+                <div class="box4">
+                    <h2>Box Title 3</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus in possimus alias eveniet deleniti cum ipsam. Temporibus quisquam, ipsam accusamus rerum voluptatum nesciunt, animi, earum fuga cumque omnis iste placeat.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequatur ipsa fugit. Ipsam nihil dicta quo similique reprehenderit veritatis odio est voluptatibus expedita porro. Explicabo, porro ex. Nisi, provident accusamus.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque nostrum expedita est voluptatem animi, non magni veritatis porro repellat? Error, cupiditate repellat. Architecto atque, provident aut laborum tempore modi recusandae.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -129,9 +176,12 @@
             <div class="grafic">
                 <span class="graficTexts">აფთიაქების მუშაობის გრაფიკი: </span>
                 <div class="grafics">
-                    <span class="graficTexts"> <i class="fas fa-clock"></i> ორშ - პარ: 10:30 - 21:00</span>
-                    <span class="graficTexts sunday">შაბ: 10:30 - 21:00</span>
-                    <span class="graficTexts sunday">კვ: 10:30 - 21:00</span>
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <span class="graficTexts"> ორშ - პარ: 10:30 - 21:00</span>
+                        <span class="graficTexts sunday">შაბ: 10:30 - 21:00</span>
+                        <span class="graficTexts sunday">კვ: 10:30 - 21:00</span>
+                    </div>
                 </div>
             </div>
             
@@ -193,5 +243,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="js/slick.min.js"></script>
     <script src="js/script.js" defer></script>
+    <script src="js/cabinet.js"></script>
 </body>
 </html>

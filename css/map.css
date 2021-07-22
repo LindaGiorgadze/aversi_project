@@ -5,7 +5,12 @@
     margin: 50px auto;
     border: white 8px solid;
 }
-#map {height: 953px; max-width: 1428px; width: 100%;}
+#map {
+    max-height: 953px;
+    height: 80vh;
+    max-width: 1428px; 
+    width: 100%;
+}
 .address {
     max-width: 1600px;
     width: 100%;

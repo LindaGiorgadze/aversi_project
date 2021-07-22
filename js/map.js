@@ -55,20 +55,20 @@ function initMap(){
   
             // Check for custom Icon
   
-            if(property.imageIcon){
-                // set image icon
-                marker.setIcon(property.imageIcon)
-            }
+            // if(property.imageIcon){
+            //     // set image icon
+            //     marker.setIcon(property.imageIcon)
+            // }
   
             if(property.content){
   
             const detailWindow = new google.maps.InfoWindow({
             content: property.content
-    });
+        });
     
-    marker.addListener("mouseover", () =>{
-        detailWindow.open(map, marker);
-    })
-  }
+        marker.addListener("mouseover", () =>{
+            detailWindow.open(map, marker);
+        });
+    }
     }
   }

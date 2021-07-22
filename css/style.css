@@ -983,14 +983,14 @@ input:checked + .slide-container .nav label { display: block; }
     flex-direction: row;
     cursor: pointer;
     margin: 10px;
-    padding: 5px;
+    padding: 1%;
     max-height: 110px;
     background-color: grey;
     border-radius: 20px;
     color: white;
 }
-.hidetext {margin-top: 13px;}
-.active3 {background-color: white; border-radius: 20px; padding: 20px; color: red;}
+/* .hidetext {margin-top: 13px;} */
+.active3 {background-color: white; border-radius: 20px; color: red;}
 /* cart */
 .cart-first-block {
     max-width: 1600px;

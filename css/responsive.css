@@ -18,16 +18,22 @@
     .wrapper, 
     ul{display: block;}   
     .nav-a{display: block;}
-    .catalog {margin-left: 45px;}  
+    .catalog {display: none;}  
     .burger-icon{
       color: #fff;
       display: block;
       font-size: 30px;
       position: absolute;
-      cursor:pointer;}
+      cursor:pointer;
+      max-width: 50px;
+      width: 100%;
+      height: 50px;
+    }
+    .fa-bars {font-size: 35px;}
     .menu-ul{display: none;}   
-    .menu-ul.open-menu{display: block;}  
-    .dropdown {margin-left: 0;}
+    .menu-ul.open-menu{display: block;}
+    .nav-li-catalog {display: block;}  
+    .dropdown {margin-left: 0; max-width: 70px;}
     .slick-dots{display: none;}
   }
 @media (max-width: 867px ) {.dropdown:hover .dropdown-content {display: none;}}

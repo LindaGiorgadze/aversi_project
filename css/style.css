@@ -80,6 +80,7 @@ body {background-color: #F4F2F0;}
     padding-top: 20px;
     padding-left: 20px;
 }
+.nav-li-catalog {display: none;}
 .nav-li:hover {background-color: #D62127;}
 .burger-icon {display: block; font-size: 30px; color: #fff;}
 .nav-a { margin-left: 25px; color: white; font-size: 20px;}

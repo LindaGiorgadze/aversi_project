@@ -1234,16 +1234,9 @@ input:checked + .slide-container .nav label { display: block; }
     padding: 5px 5px;
     max-height: 110px;
     max-width: 450px;
-    width: 100%;
     height: auto;
 }
 .active4 { border-bottom: red 5px solid;}
-.element4 span {
-    padding: 2% 2%;
-    width: 30%;
-    margin: 10px 10px;
-    white-space: nowrap;
-}
 .form {
     max-width: 692px;
     width: 100%;

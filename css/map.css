@@ -1,11 +1,11 @@
 .map-div {
-    max-width: 1428px;
+    max-width: 1300px;
     width: 100%;
     height: auto;
     margin: 50px auto;
     border: white 8px solid;
 }
-#map {max-height:935px; height:  90vh; max-width: 1428px; width: 100%;}
+#map {max-height:935px; height:  90vh; max-width: 1300px; width: 100%;}
 .address {
     max-width: 1600px;
     width: 100%;

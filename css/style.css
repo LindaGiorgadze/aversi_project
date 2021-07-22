@@ -692,7 +692,7 @@ input:checked + .slide-container .nav label { display: block; }
     height: auto;
 }
 .card-a {font-size: 35px;  color: white;}
-.company { font-size: 18px; color: white; margin-bottom: 23px;}
+.company { font-size: 18px; color: white; margin-bottom: 23px; font-weight: bold;}
 .footer-lists-nav {
     max-width: 720px;
     width: 100%;
@@ -702,7 +702,7 @@ input:checked + .slide-container .nav label { display: block; }
     justify-content: space-around;
 }
 .footer-a { font-size: 16px; color: white; margin-bottom: 10px;}
-.footer-li {margin-bottom: 10px;}
+.footer-li {margin-bottom: 20px; white-space: nowrap;}
 .online-help {
     max-width: 225px;
     width: 100%;
@@ -1226,8 +1226,9 @@ input:checked + .slide-container .nav label { display: block; }
     cursor: pointer;
 }
 .grafic {display: flex;}
-.grafics {display: flex; flex-direction: column;}
-.graficTexts {  color: #7D8078; font-size: 20px;   margin-left: 25px;}
+.grafics {display: flex; align-items: baseline;}
+.fa-clock {opacity: 0.5; margin-left: 25px; font-size: 20px;}
+.graficTexts {  color: #7D8078; font-size: 20px; margin-left: 25px; display: flex;}
 .sunday {margin-top: 7px;}
 .telephone-grafic {
     display: flex;

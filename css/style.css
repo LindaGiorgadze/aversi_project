@@ -779,6 +779,7 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 18px;
     margin-top: 20px;
 }
+.fa-sort-down {font-size: 30px; opacity: 0.8; margin-left: 125px;}
 .lists-and-sort {
     max-width: 1118px;
     width: 100%;
